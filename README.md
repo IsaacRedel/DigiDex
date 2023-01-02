@@ -1,5 +1,5 @@
 # DigiDex 🐲
-This project show informations about some digimons> 
+This project show informations about some digimons 
 
 ![image](https://user-images.githubusercontent.com/55263582/210231887-898baa64-f193-4789-a0fb-36483063aa82.png)
 
@@ -28,7 +28,7 @@ pip install -r requirements.txt
 
 # Usage 📈
 
-To use run the project, you can use _python digidex.py_ and the project will open
+To use run the project, you can use _python digidex.py_ in terminal and the project will open
 
 ```bash
 python digidex.py
@@ -36,6 +36,6 @@ python digidex.py
 
 # Additional Resources
 
-[Digimon wiki] (https://digimon.fandom.com/wiki/Digimon_Wiki "Digimon Wiki")
+[1] https://digimon.fandom.com/wiki/Digimon_Wiki "Digimon Wiki"
 
 
