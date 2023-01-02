@@ -36,6 +36,6 @@ python digidex.py
 
 # Additional Resources
 
-[1] https://digimon.fandom.com/wiki/Digimon_Wiki "Digimon Wiki"
+[Digimon Wiki](https://digimon.fandom.com/wiki/Digimon_Wiki)
 
 
