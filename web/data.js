@@ -12,7 +12,7 @@ export const digimon = [
     ],
     "element": "Reptile",
     "type": "Reptile",
-    "image": "assets/digimon/standard/agumon.png",
+    "image": "assets/digimon/optimized/agumon-960.webp",
     "color": "sand",
     "description": "Réptil bípede com garras afiadas e um temperamento destemido.",
     "attacks": [
@@ -34,7 +34,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/agumon-transparent.png",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/agumon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/agumon-160.webp",
+      "medium": "assets/digimon/optimized/agumon-480.webp",
+      "large": "assets/digimon/optimized/agumon-960.webp"
+    }
   },
   {
     "id": "gabumon",
@@ -48,7 +54,7 @@ export const digimon = [
     ],
     "element": "Reptile",
     "type": "Reptile",
-    "image": "assets/digimon/standard/gabumon.png",
+    "image": "assets/digimon/optimized/gabumon-960.webp",
     "color": "ice",
     "description": "Tímido por natureza, veste uma pele de Garurumon para ganhar coragem.",
     "attacks": [
@@ -70,7 +76,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/gabumon-transparent.png",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/gabumon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/gabumon-160.webp",
+      "medium": "assets/digimon/optimized/gabumon-480.webp",
+      "large": "assets/digimon/optimized/gabumon-960.webp"
+    }
   },
   {
     "id": "wargreymon",
@@ -84,7 +96,7 @@ export const digimon = [
     ],
     "element": "Dragon Man",
     "type": "Dragon Man",
-    "image": "assets/digimon/standard/wargreymon.png",
+    "image": "assets/digimon/optimized/wargreymon-960.webp",
     "color": "sand",
     "description": "Guerreiro dragão protegido por armadura de Chrome Digizoid.",
     "attacks": [
@@ -112,7 +124,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/wargreymon-transparent.png",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/wargreymon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/wargreymon-160.webp",
+      "medium": "assets/digimon/optimized/wargreymon-480.webp",
+      "large": "assets/digimon/optimized/wargreymon-960.webp"
+    }
   },
   {
     "id": "metalgarurumon",
@@ -128,7 +146,7 @@ export const digimon = [
     ],
     "element": "Cyborg",
     "type": "Cyborg",
-    "image": "assets/digimon/standard/metalgarurumon.png",
+    "image": "assets/digimon/optimized/metalgarurumon-960.webp",
     "color": "ice",
     "description": "Forma mecanizada de Garurumon, equipada com sensores e armamentos.",
     "attacks": [
@@ -162,7 +180,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/metalgarurumon-transparent.png",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/metalgarurumon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/metalgarurumon-160.webp",
+      "medium": "assets/digimon/optimized/metalgarurumon-480.webp",
+      "large": "assets/digimon/optimized/metalgarurumon-960.webp"
+    }
   },
   {
     "id": "omegamon",
@@ -178,7 +202,7 @@ export const digimon = [
     ],
     "element": "Holy Knight",
     "type": "Holy Knight",
-    "image": "assets/digimon/standard/omegamon.png",
+    "image": "assets/digimon/optimized/omegamon-960.webp",
     "color": "sand",
     "description": "Cavaleiro sagrado que reúne características de WarGreymon e MetalGarurumon.",
     "attacks": [
@@ -206,7 +230,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/omegamon-transparent.png",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/omegamon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/omegamon-160.webp",
+      "medium": "assets/digimon/optimized/omegamon-480.webp",
+      "large": "assets/digimon/optimized/omegamon-960.webp"
+    }
   },
   {
     "id": "greymon",
@@ -220,7 +250,7 @@ export const digimon = [
     ],
     "element": "Dinosaur",
     "type": "Dinosaur",
-    "image": "assets/digimon/standard/greymon.png",
+    "image": "assets/digimon/optimized/greymon-960.webp",
     "color": "sand",
     "description": "Dinossauro com uma carapaça endurecida que protege a cabeça.",
     "attacks": [
@@ -242,7 +272,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/greymon-transparent.png",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/greymon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/greymon-160.webp",
+      "medium": "assets/digimon/optimized/greymon-480.webp",
+      "large": "assets/digimon/optimized/greymon-960.webp"
+    }
   },
   {
     "id": "metalgreymon",
@@ -258,7 +294,7 @@ export const digimon = [
     ],
     "element": "Cyborg",
     "type": "Cyborg",
-    "image": "assets/digimon/standard/metalgreymon.png",
+    "image": "assets/digimon/optimized/metalgreymon-960.webp",
     "color": "sand",
     "description": "Ciborgue que combina um corpo orgânico poderoso com partes mecanizadas.",
     "attacks": [
@@ -292,7 +328,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/metalgreymon-transparent.png",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/metalgreymon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/metalgreymon-160.webp",
+      "medium": "assets/digimon/optimized/metalgreymon-480.webp",
+      "large": "assets/digimon/optimized/metalgreymon-960.webp"
+    }
   },
   {
     "id": "garurumon",
@@ -306,7 +348,7 @@ export const digimon = [
     ],
     "element": "Beast",
     "type": "Beast",
-    "image": "assets/digimon/standard/garurumon.png",
+    "image": "assets/digimon/optimized/garurumon-960.webp",
     "color": "sand",
     "description": "Fera semelhante a um lobo, com pelagem resistente e grande agilidade.",
     "attacks": [
@@ -328,7 +370,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/garurumon-transparent.png",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/garurumon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/garurumon-160.webp",
+      "medium": "assets/digimon/optimized/garurumon-480.webp",
+      "large": "assets/digimon/optimized/garurumon-960.webp"
+    }
   },
   {
     "id": "weregarurumon",
@@ -342,7 +390,7 @@ export const digimon = [
     ],
     "element": "Beast Man",
     "type": "Beast Man",
-    "image": "assets/digimon/standard/weregarurumon.png",
+    "image": "assets/digimon/optimized/weregarurumon-960.webp",
     "color": "sand",
     "description": "Guerreiro bípede que concentra sua força em golpes e garras.",
     "attacks": [
@@ -364,7 +412,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/weregarurumon-transparent.png",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/weregarurumon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/weregarurumon-160.webp",
+      "medium": "assets/digimon/optimized/weregarurumon-480.webp",
+      "large": "assets/digimon/optimized/weregarurumon-960.webp"
+    }
   },
   {
     "id": "biyomon",
@@ -380,7 +434,7 @@ export const digimon = [
     ],
     "element": "Baby Bird",
     "type": "Baby Bird",
-    "image": "assets/digimon/standard/biyomon.png",
+    "image": "assets/digimon/optimized/biyomon-960.webp",
     "color": "sand",
     "description": "Pequeno pássaro que usa as asas também como braços.",
     "attacks": [
@@ -402,7 +456,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/biyomon-transparent.png",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/biyomon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/biyomon-160.webp",
+      "medium": "assets/digimon/optimized/biyomon-480.webp",
+      "large": "assets/digimon/optimized/biyomon-960.webp"
+    }
   },
   {
     "id": "birdramon",
@@ -416,7 +476,7 @@ export const digimon = [
     ],
     "element": "Giant Bird",
     "type": "Giant Bird",
-    "image": "assets/digimon/standard/birdramon.png",
+    "image": "assets/digimon/optimized/birdramon-960.webp",
     "color": "sand",
     "description": "Ave gigante envolta em chamas, que cruza o céu com suas grandes asas.",
     "attacks": [
@@ -438,7 +498,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/birdramon-transparent.png",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/birdramon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/birdramon-160.webp",
+      "medium": "assets/digimon/optimized/birdramon-480.webp",
+      "large": "assets/digimon/optimized/birdramon-960.webp"
+    }
   },
   {
     "id": "garudamon",
@@ -452,7 +518,7 @@ export const digimon = [
     ],
     "element": "Bird Man",
     "type": "Bird Man",
-    "image": "assets/digimon/standard/garudamon.png",
+    "image": "assets/digimon/optimized/garudamon-960.webp",
     "color": "sand",
     "description": "Guerreiro alado associado à proteção da natureza e da ordem.",
     "attacks": [
@@ -474,7 +540,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/garudamon-transparent.png",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/garudamon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/garudamon-160.webp",
+      "medium": "assets/digimon/optimized/garudamon-480.webp",
+      "large": "assets/digimon/optimized/garudamon-960.webp"
+    }
   },
   {
     "id": "phoenixmon",
@@ -490,7 +562,7 @@ export const digimon = [
     ],
     "element": "Holy Beast",
     "type": "Holy Beast",
-    "image": "assets/digimon/standard/phoenixmon.png",
+    "image": "assets/digimon/optimized/phoenixmon-960.webp",
     "color": "sand",
     "description": "Ave sagrada de quatro asas, reconhecida como líder dos Digimon pássaros.",
     "attacks": [
@@ -512,7 +584,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/phoenixmon-transparent.png",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/phoenixmon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/phoenixmon-160.webp",
+      "medium": "assets/digimon/optimized/phoenixmon-480.webp",
+      "large": "assets/digimon/optimized/phoenixmon-960.webp"
+    }
   },
   {
     "id": "tentomon",
@@ -526,7 +604,7 @@ export const digimon = [
     ],
     "element": "Insectoid",
     "type": "Insectoid",
-    "image": "assets/digimon/standard/tentomon.png",
+    "image": "assets/digimon/optimized/tentomon-960.webp",
     "color": "sand",
     "description": "Inseto com carapaça resistente e uma personalidade amigável.",
     "attacks": [
@@ -548,7 +626,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/tentomon-transparent.png",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/tentomon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/tentomon-160.webp",
+      "medium": "assets/digimon/optimized/tentomon-480.webp",
+      "large": "assets/digimon/optimized/tentomon-960.webp"
+    }
   },
   {
     "id": "kabuterimon",
@@ -562,7 +646,7 @@ export const digimon = [
     ],
     "element": "Insectoid",
     "type": "Insectoid",
-    "image": "assets/digimon/standard/kabuterimon.png",
+    "image": "assets/digimon/optimized/kabuterimon-960.webp",
     "color": "sand",
     "description": "Inseto de grande porte que combina força e uma carapaça protetora.",
     "attacks": [
@@ -584,7 +668,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/kabuterimon-transparent.png",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/kabuterimon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/kabuterimon-160.webp",
+      "medium": "assets/digimon/optimized/kabuterimon-480.webp",
+      "large": "assets/digimon/optimized/kabuterimon-960.webp"
+    }
   },
   {
     "id": "megakabuterimon",
@@ -600,7 +690,7 @@ export const digimon = [
     ],
     "element": "Insectoid",
     "type": "Insectoid",
-    "image": "assets/digimon/standard/megakabuterimon.png",
+    "image": "assets/digimon/optimized/megakabuterimon-960.webp",
     "color": "sand",
     "description": "Forma vermelha de grande porte, com um chifre desenvolvido para combate.",
     "attacks": [
@@ -622,7 +712,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/megakabuterimon-transparent.png",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/megakabuterimon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/megakabuterimon-160.webp",
+      "medium": "assets/digimon/optimized/megakabuterimon-480.webp",
+      "large": "assets/digimon/optimized/megakabuterimon-960.webp"
+    }
   },
   {
     "id": "herculeskabuterimon",
@@ -638,7 +734,7 @@ export const digimon = [
     ],
     "element": "Insectoid",
     "type": "Insectoid",
-    "image": "assets/digimon/standard/herculeskabuterimon.png",
+    "image": "assets/digimon/optimized/herculeskabuterimon-960.webp",
     "color": "sand",
     "description": "Inseto de armadura dourada, com um grande chifre e pinças poderosas.",
     "attacks": [
@@ -660,7 +756,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/herculeskabuterimon-transparent.png",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/herculeskabuterimon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/herculeskabuterimon-160.webp",
+      "medium": "assets/digimon/optimized/herculeskabuterimon-480.webp",
+      "large": "assets/digimon/optimized/herculeskabuterimon-960.webp"
+    }
   },
   {
     "id": "palmon",
@@ -674,7 +776,7 @@ export const digimon = [
     ],
     "element": "Vegetation",
     "type": "Vegetation",
-    "image": "assets/digimon/standard/palmon.png",
+    "image": "assets/digimon/optimized/palmon-960.webp",
     "color": "ice",
     "description": "Digimon planta que obtém energia por fotossíntese com a flor da cabeça.",
     "attacks": [
@@ -696,7 +798,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/palmon-transparent.png",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/palmon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/palmon-160.webp",
+      "medium": "assets/digimon/optimized/palmon-480.webp",
+      "large": "assets/digimon/optimized/palmon-960.webp"
+    }
   },
   {
     "id": "togemon",
@@ -710,7 +818,7 @@ export const digimon = [
     ],
     "element": "Vegetation",
     "type": "Vegetation",
-    "image": "assets/digimon/standard/togemon.png",
+    "image": "assets/digimon/optimized/togemon-960.webp",
     "color": "ice",
     "description": "Cacto gigante que luta com socos e espinhos.",
     "attacks": [
@@ -732,7 +840,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/togemon-transparent.png",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/togemon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/togemon-160.webp",
+      "medium": "assets/digimon/optimized/togemon-480.webp",
+      "large": "assets/digimon/optimized/togemon-960.webp"
+    }
   },
   {
     "id": "lillymon",
@@ -746,7 +860,7 @@ export const digimon = [
     ],
     "element": "Pixie",
     "type": "Pixie",
-    "image": "assets/digimon/standard/lillymon.png",
+    "image": "assets/digimon/optimized/lillymon-960.webp",
     "color": "ice",
     "description": "Pequena fada nascida de uma flor, capaz de voar com suas pétalas.",
     "attacks": [
@@ -768,7 +882,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/lillymon-transparent.png",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/lillymon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/lillymon-160.webp",
+      "medium": "assets/digimon/optimized/lillymon-480.webp",
+      "large": "assets/digimon/optimized/lillymon-960.webp"
+    }
   },
   {
     "id": "rosemon",
@@ -782,7 +902,7 @@ export const digimon = [
     ],
     "element": "Pixie",
     "type": "Pixie",
-    "image": "assets/digimon/standard/rosemon.png",
+    "image": "assets/digimon/optimized/rosemon-960.webp",
     "color": "ice",
     "description": "Fada com aparência de rosa, conhecida como rainha das flores.",
     "attacks": [
@@ -816,7 +936,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/rosemon-transparent.png",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/rosemon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/rosemon-160.webp",
+      "medium": "assets/digimon/optimized/rosemon-480.webp",
+      "large": "assets/digimon/optimized/rosemon-960.webp"
+    }
   },
   {
     "id": "gomamon",
@@ -830,7 +956,7 @@ export const digimon = [
     ],
     "element": "Sea Beast",
     "type": "Sea Beast",
-    "image": "assets/digimon/standard/gomamon.png",
+    "image": "assets/digimon/optimized/gomamon-960.webp",
     "color": "sand",
     "description": "Criatura marinha de pelagem espessa e personalidade brincalhona.",
     "attacks": [
@@ -852,7 +978,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/gomamon-transparent.png",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/gomamon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/gomamon-160.webp",
+      "medium": "assets/digimon/optimized/gomamon-480.webp",
+      "large": "assets/digimon/optimized/gomamon-960.webp"
+    }
   },
   {
     "id": "ikkakumon",
@@ -866,7 +998,7 @@ export const digimon = [
     ],
     "element": "Sea Beast",
     "type": "Sea Beast",
-    "image": "assets/digimon/standard/ikkakumon.png",
+    "image": "assets/digimon/optimized/ikkakumon-960.webp",
     "color": "sand",
     "description": "Fera marinha adaptada ao frio, com pelagem densa e um grande chifre.",
     "attacks": [
@@ -888,7 +1020,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/ikkakumon-transparent.png",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/ikkakumon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/ikkakumon-160.webp",
+      "medium": "assets/digimon/optimized/ikkakumon-480.webp",
+      "large": "assets/digimon/optimized/ikkakumon-960.webp"
+    }
   },
   {
     "id": "zudomon",
@@ -902,7 +1040,7 @@ export const digimon = [
     ],
     "element": "Sea Beast",
     "type": "Sea Beast",
-    "image": "assets/digimon/standard/zudomon.png",
+    "image": "assets/digimon/optimized/zudomon-960.webp",
     "color": "sand",
     "description": "Guerreiro marinho que usa um martelo de Chrome Digizoid.",
     "attacks": [
@@ -924,7 +1062,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/zudomon-transparent.png",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/zudomon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/zudomon-160.webp",
+      "medium": "assets/digimon/optimized/zudomon-480.webp",
+      "large": "assets/digimon/optimized/zudomon-960.webp"
+    }
   },
   {
     "id": "vikemon",
@@ -938,7 +1082,7 @@ export const digimon = [
     ],
     "element": "Beast Man",
     "type": "Beast Man",
-    "image": "assets/digimon/standard/vikemon.png",
+    "image": "assets/digimon/optimized/vikemon-960.webp",
     "color": "sand",
     "description": "Guerreiro das regiões geladas, armado com grandes maças.",
     "attacks": [
@@ -966,7 +1110,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/vikemon-transparent.png",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/vikemon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/vikemon-160.webp",
+      "medium": "assets/digimon/optimized/vikemon-480.webp",
+      "large": "assets/digimon/optimized/vikemon-960.webp"
+    }
   },
   {
     "id": "patamon",
@@ -980,7 +1130,7 @@ export const digimon = [
     ],
     "element": "Mammal",
     "type": "Mammal",
-    "image": "assets/digimon/standard/patamon.png",
+    "image": "assets/digimon/optimized/patamon-960.webp",
     "color": "ice",
     "description": "Pequeno mamífero que usa suas grandes orelhas para voar.",
     "attacks": [
@@ -1008,7 +1158,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/patamon-transparent.png",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/patamon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/patamon-160.webp",
+      "medium": "assets/digimon/optimized/patamon-480.webp",
+      "large": "assets/digimon/optimized/patamon-960.webp"
+    }
   },
   {
     "id": "angemon",
@@ -1022,7 +1178,7 @@ export const digimon = [
     ],
     "element": "Angel",
     "type": "Angel",
-    "image": "assets/digimon/standard/angemon.png",
+    "image": "assets/digimon/optimized/angemon-960.webp",
     "color": "sand",
     "description": "Anjo de seis asas dedicado a combater as forças das trevas.",
     "attacks": [
@@ -1044,7 +1200,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/angemon-transparent.png",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/angemon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/angemon-160.webp",
+      "medium": "assets/digimon/optimized/angemon-480.webp",
+      "large": "assets/digimon/optimized/angemon-960.webp"
+    }
   },
   {
     "id": "magnaangemon",
@@ -1060,7 +1222,7 @@ export const digimon = [
     ],
     "element": "High Angel",
     "type": "High Angel",
-    "image": "assets/digimon/standard/magnaangemon.png",
+    "image": "assets/digimon/optimized/magnaangemon-960.webp",
     "color": "sand",
     "description": "Arcanjo de oito asas que exerce um papel de vigilância e proteção.",
     "attacks": [
@@ -1082,7 +1244,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/magnaangemon-transparent.png",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/magnaangemon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/magnaangemon-160.webp",
+      "medium": "assets/digimon/optimized/magnaangemon-480.webp",
+      "large": "assets/digimon/optimized/magnaangemon-960.webp"
+    }
   },
   {
     "id": "seraphimon",
@@ -1096,7 +1264,7 @@ export const digimon = [
     ],
     "element": "Seraph",
     "type": "Seraph",
-    "image": "assets/digimon/standard/seraphimon.png",
+    "image": "assets/digimon/optimized/seraphimon-960.webp",
     "color": "sand",
     "description": "Anjo de armadura sagrada e dez asas douradas.",
     "attacks": [
@@ -1124,7 +1292,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/seraphimon-transparent.png",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/seraphimon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/seraphimon-160.webp",
+      "medium": "assets/digimon/optimized/seraphimon-480.webp",
+      "large": "assets/digimon/optimized/seraphimon-960.webp"
+    }
   },
   {
     "id": "gatomon",
@@ -1140,7 +1314,7 @@ export const digimon = [
     ],
     "element": "Holy Beast",
     "type": "Holy Beast",
-    "image": "assets/digimon/standard/gatomon.png",
+    "image": "assets/digimon/optimized/gatomon-960.webp",
     "color": "sand",
     "description": "Pequeno Digimon sagrado com um anel na cauda e garras protegidas por luvas.",
     "attacks": [
@@ -1168,7 +1342,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/gatomon-transparent.png",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/gatomon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/gatomon-160.webp",
+      "medium": "assets/digimon/optimized/gatomon-480.webp",
+      "large": "assets/digimon/optimized/gatomon-960.webp"
+    }
   },
   {
     "id": "angewomon",
@@ -1182,7 +1362,7 @@ export const digimon = [
     ],
     "element": "High Angel",
     "type": "High Angel",
-    "image": "assets/digimon/standard/angewomon.png",
+    "image": "assets/digimon/optimized/angewomon-960.webp",
     "color": "sand",
     "description": "Arcanjo de oito asas que combate com um arco de energia sagrada.",
     "attacks": [
@@ -1210,7 +1390,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/angewomon-transparent.png",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/angewomon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/angewomon-160.webp",
+      "medium": "assets/digimon/optimized/angewomon-480.webp",
+      "large": "assets/digimon/optimized/angewomon-960.webp"
+    }
   },
   {
     "id": "magnadramon",
@@ -1226,7 +1412,7 @@ export const digimon = [
     ],
     "element": "Holy Dragon",
     "type": "Holy Dragon",
-    "image": "assets/digimon/standard/magnadramon.png",
+    "image": "assets/digimon/optimized/magnadramon-960.webp",
     "color": "sand",
     "description": "Dragão sagrado de dez asas, associado ao combate contra o mal.",
     "attacks": [
@@ -1248,7 +1434,13 @@ export const digimon = [
     "previousArtSource": "https://digimon.net/cimages/digimon/holydramon.jpg",
     "originalArtImage": "assets/digimon/magnadramon-transparent.png",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/magnadramon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/magnadramon-160.webp",
+      "medium": "assets/digimon/optimized/magnadramon-480.webp",
+      "large": "assets/digimon/optimized/magnadramon-960.webp"
+    }
   },
   {
     "id": "guilmon",
@@ -1262,7 +1454,7 @@ export const digimon = [
     ],
     "element": "Reptile",
     "type": "Reptile",
-    "image": "assets/digimon/standard/guilmon.png",
+    "image": "assets/digimon/optimized/guilmon-960.webp",
     "color": "sand",
     "description": "Réptil curioso e impulsivo, com potencial de combate escondido sob seu comportamento infantil.",
     "attacks": [
@@ -1290,7 +1482,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/guilmon-transparent.gif",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/guilmon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/guilmon-160.webp",
+      "medium": "assets/digimon/optimized/guilmon-480.webp",
+      "large": "assets/digimon/optimized/guilmon-960.webp"
+    }
   },
   {
     "id": "growlmon",
@@ -1306,7 +1504,7 @@ export const digimon = [
     ],
     "element": "Dark Dragon",
     "type": "Dark Dragon",
-    "image": "assets/digimon/standard/growlmon.png",
+    "image": "assets/digimon/optimized/growlmon-960.webp",
     "color": "sand",
     "description": "Dragão de grande porte que conserva traços de Guilmon e ataca com suas lâminas e chamas.",
     "attacks": [
@@ -1334,7 +1532,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/growlmon-transparent.gif",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/growlmon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/growlmon-160.webp",
+      "medium": "assets/digimon/optimized/growlmon-480.webp",
+      "large": "assets/digimon/optimized/growlmon-960.webp"
+    }
   },
   {
     "id": "wargrowlmon",
@@ -1351,7 +1555,7 @@ export const digimon = [
     ],
     "element": "Cyborg",
     "type": "Cyborg",
-    "image": "assets/digimon/standard/wargrowlmon.png",
+    "image": "assets/digimon/optimized/wargrowlmon-960.webp",
     "color": "sand",
     "description": "Ciborgue equipado com armamento e lâminas nos braços; sua parte superior é mecanizada.",
     "attacks": [
@@ -1379,7 +1583,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/wargrowlmon-transparent.gif",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/wargrowlmon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/wargrowlmon-160.webp",
+      "medium": "assets/digimon/optimized/wargrowlmon-480.webp",
+      "large": "assets/digimon/optimized/wargrowlmon-960.webp"
+    }
   },
   {
     "id": "gallantmon",
@@ -1396,7 +1606,7 @@ export const digimon = [
     ],
     "element": "Holy Knight",
     "type": "Holy Knight",
-    "image": "assets/digimon/standard/gallantmon.png",
+    "image": "assets/digimon/optimized/gallantmon-960.webp",
     "color": "sand",
     "description": "Cavaleiro sagrado armado com a lança Gram e o escudo Aegis, apesar de seu atributo Vírus.",
     "attacks": [
@@ -1424,7 +1634,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/gallantmon-transparent.gif",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/gallantmon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/gallantmon-160.webp",
+      "medium": "assets/digimon/optimized/gallantmon-480.webp",
+      "large": "assets/digimon/optimized/gallantmon-960.webp"
+    }
   },
   {
     "id": "renamon",
@@ -1438,7 +1654,7 @@ export const digimon = [
     ],
     "element": "Beast Man",
     "type": "Beast Man",
-    "image": "assets/digimon/standard/renamon.png",
+    "image": "assets/digimon/optimized/renamon-960.webp",
     "color": "ice",
     "description": "Digimon de aparência vulpina que combina inteligência, disciplina e movimentos velozes.",
     "attacks": [
@@ -1466,7 +1682,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/renamon-transparent.gif",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/renamon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/renamon-160.webp",
+      "medium": "assets/digimon/optimized/renamon-480.webp",
+      "large": "assets/digimon/optimized/renamon-960.webp"
+    }
   },
   {
     "id": "kyubimon",
@@ -1480,7 +1702,7 @@ export const digimon = [
     ],
     "element": "Mysterious Beast",
     "type": "Mysterious Beast",
-    "image": "assets/digimon/standard/kyubimon.png",
+    "image": "assets/digimon/optimized/kyubimon-960.webp",
     "color": "ice",
     "description": "Raposa de nove caudas associada a chamas espirituais e técnicas místicas.",
     "attacks": [
@@ -1508,7 +1730,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/kyubimon-transparent.gif",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/kyubimon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/kyubimon-160.webp",
+      "medium": "assets/digimon/optimized/kyubimon-480.webp",
+      "large": "assets/digimon/optimized/kyubimon-960.webp"
+    }
   },
   {
     "id": "taomon",
@@ -1522,7 +1750,7 @@ export const digimon = [
     ],
     "element": "Wizard",
     "type": "Wizard",
-    "image": "assets/digimon/standard/taomon.png",
+    "image": "assets/digimon/optimized/taomon-960.webp",
     "color": "ice",
     "description": "Especialista em feitiços, talismãs e técnicas que canalizam energia espiritual.",
     "attacks": [
@@ -1544,7 +1772,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/taomon-transparent.gif",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/taomon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/taomon-160.webp",
+      "medium": "assets/digimon/optimized/taomon-480.webp",
+      "large": "assets/digimon/optimized/taomon-960.webp"
+    }
   },
   {
     "id": "sakuyamon",
@@ -1558,7 +1792,7 @@ export const digimon = [
     ],
     "element": "Deity",
     "type": "Deity",
-    "image": "assets/digimon/standard/sakuyamon.png",
+    "image": "assets/digimon/optimized/sakuyamon-960.webp",
     "color": "ice",
     "description": "Divindade de armadura dourada que utiliza espíritos auxiliares e um cajado ritual.",
     "attacks": [
@@ -1586,7 +1820,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/sakuyamon-transparent.gif",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/sakuyamon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/sakuyamon-160.webp",
+      "medium": "assets/digimon/optimized/sakuyamon-480.webp",
+      "large": "assets/digimon/optimized/sakuyamon-960.webp"
+    }
   },
   {
     "id": "terriermon",
@@ -1600,7 +1840,7 @@ export const digimon = [
     ],
     "element": "Beast",
     "type": "Beast",
-    "image": "assets/digimon/standard/terriermon.png",
+    "image": "assets/digimon/optimized/terriermon-960.webp",
     "color": "sand",
     "description": "Pequeno Digimon de longas orelhas cuja aparência delicada esconde grande força.",
     "attacks": [
@@ -1634,7 +1874,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/terriermon-transparent.gif",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/terriermon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/terriermon-160.webp",
+      "medium": "assets/digimon/optimized/terriermon-480.webp",
+      "large": "assets/digimon/optimized/terriermon-960.webp"
+    }
   },
   {
     "id": "gargomon",
@@ -1650,7 +1896,7 @@ export const digimon = [
     ],
     "element": "Beast Man",
     "type": "Beast Man",
-    "image": "assets/digimon/standard/gargomon.png",
+    "image": "assets/digimon/optimized/gargomon-960.webp",
     "color": "sand",
     "description": "Fera mecanizada equipada com metralhadoras nos braços e grande capacidade de salto.",
     "attacks": [
@@ -1678,7 +1924,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/gargomon-transparent.gif",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/gargomon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/gargomon-160.webp",
+      "medium": "assets/digimon/optimized/gargomon-480.webp",
+      "large": "assets/digimon/optimized/gargomon-960.webp"
+    }
   },
   {
     "id": "rapidmon",
@@ -1692,7 +1944,7 @@ export const digimon = [
     ],
     "element": "Cyborg",
     "type": "Cyborg",
-    "image": "assets/digimon/standard/rapidmon.png",
+    "image": "assets/digimon/optimized/rapidmon-960.webp",
     "color": "sand",
     "description": "Ciborgue de alta velocidade que usa sensores para localizar o adversário.",
     "attacks": [
@@ -1720,7 +1972,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/rapidmon-transparent.gif",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/rapidmon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/rapidmon-160.webp",
+      "medium": "assets/digimon/optimized/rapidmon-480.webp",
+      "large": "assets/digimon/optimized/rapidmon-960.webp"
+    }
   },
   {
     "id": "megagargomon",
@@ -1737,7 +1995,7 @@ export const digimon = [
     ],
     "element": "Machine",
     "type": "Machine",
-    "image": "assets/digimon/standard/megagargomon.png",
+    "image": "assets/digimon/optimized/megagargomon-960.webp",
     "color": "sand",
     "description": "Grande máquina de combate, equipada com armamentos distribuídos por todo o corpo.",
     "attacks": [
@@ -1765,7 +2023,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/megagargomon-transparent.gif",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/megagargomon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/megagargomon-160.webp",
+      "medium": "assets/digimon/optimized/megagargomon-480.webp",
+      "large": "assets/digimon/optimized/megagargomon-960.webp"
+    }
   },
   {
     "id": "veemon",
@@ -1783,7 +2047,7 @@ export const digimon = [
     ],
     "element": "Mini Dragon",
     "type": "Mini Dragon",
-    "image": "assets/digimon/standard/veemon.png",
+    "image": "assets/digimon/optimized/veemon-960.webp",
     "color": "sand",
     "description": "Sobrevivente de uma antiga espécie, com um corpo pequeno e grande potencial para evolução Armor.",
     "attacks": [
@@ -1811,7 +2075,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/veemon-transparent.png",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/veemon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/veemon-160.webp",
+      "medium": "assets/digimon/optimized/veemon-480.webp",
+      "large": "assets/digimon/optimized/veemon-960.webp"
+    }
   },
   {
     "id": "wormmon",
@@ -1825,7 +2095,7 @@ export const digimon = [
     ],
     "element": "Larva",
     "type": "Larva",
-    "image": "assets/digimon/standard/wormmon.png",
+    "image": "assets/digimon/optimized/wormmon-960.webp",
     "color": "sand",
     "description": "Larva de temperamento tímido que se defende com fios resistentes.",
     "attacks": [
@@ -1853,7 +2123,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/wormmon-transparent.png",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/wormmon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/wormmon-160.webp",
+      "medium": "assets/digimon/optimized/wormmon-480.webp",
+      "large": "assets/digimon/optimized/wormmon-960.webp"
+    }
   },
   {
     "id": "hawkmon",
@@ -1867,7 +2143,7 @@ export const digimon = [
     ],
     "element": "Bird",
     "type": "Bird",
-    "image": "assets/digimon/standard/hawkmon.png",
+    "image": "assets/digimon/optimized/hawkmon-960.webp",
     "color": "sand",
     "description": "Pássaro de temperamento calmo e educado, pertencente a uma espécie antiga.",
     "attacks": [
@@ -1895,7 +2171,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/hawkmon-transparent.png",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/hawkmon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/hawkmon-160.webp",
+      "medium": "assets/digimon/optimized/hawkmon-480.webp",
+      "large": "assets/digimon/optimized/hawkmon-960.webp"
+    }
   },
   {
     "id": "armadillomon",
@@ -1912,7 +2194,7 @@ export const digimon = [
     ],
     "element": "Mammal",
     "type": "Mammal",
-    "image": "assets/digimon/standard/armadillomon.png",
+    "image": "assets/digimon/optimized/armadillomon-960.webp",
     "color": "sand",
     "description": "Mamífero de carapaça resistente e temperamento tranquilo, apto à evolução Armor.",
     "attacks": [
@@ -1940,7 +2222,13 @@ export const digimon = [
     "originalArtImage": "assets/digimon/armadillomon-transparent.png",
     "artProcessing": "Reilustração assistida por ImageGen a partir da referência oficial, com acabamento inspirado na arte do Imperialdramon e fundo transparente. Pode haver diferenças nos detalhes; original preservado.",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/armadillomon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/armadillomon-160.webp",
+      "medium": "assets/digimon/optimized/armadillomon-480.webp",
+      "large": "assets/digimon/optimized/armadillomon-960.webp"
+    }
   },
   {
     "id": "exveemon",
@@ -1957,7 +2245,7 @@ export const digimon = [
     ],
     "type": "Mythical Dragon",
     "element": "Mythical Dragon",
-    "image": "assets/digimon/exveemon-transparent.png",
+    "image": "assets/digimon/optimized/exveemon-960.webp",
     "color": "sand",
     "description": "Dragão alado que combina força física e ataques de energia.",
     "attacks": [
@@ -1981,7 +2269,13 @@ export const digimon = [
         "source": "https://digimon.net/reference_en/detail.php?directory_name=xv-mon"
       }
     ],
-    "artScale": 1
+    "artScale": 1,
+    "sourceImage": "assets/digimon/exveemon-transparent.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/exveemon-160.webp",
+      "medium": "assets/digimon/optimized/exveemon-480.webp",
+      "large": "assets/digimon/optimized/exveemon-960.webp"
+    }
   },
   {
     "id": "stingmon",
@@ -1995,7 +2289,7 @@ export const digimon = [
     ],
     "type": "Insectoid",
     "element": "Insectoid",
-    "image": "assets/digimon/stingmon-transparent.png",
+    "image": "assets/digimon/optimized/stingmon-960.webp",
     "color": "sand",
     "description": "Inseto humanoide de movimentos ágeis e golpes precisos.",
     "attacks": [
@@ -2013,7 +2307,13 @@ export const digimon = [
         "source": "https://digimon.net/reference_en/detail.php?directory_name=stingmon"
       }
     ],
-    "artScale": 1
+    "artScale": 1,
+    "sourceImage": "assets/digimon/stingmon-transparent.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/stingmon-160.webp",
+      "medium": "assets/digimon/optimized/stingmon-480.webp",
+      "large": "assets/digimon/optimized/stingmon-960.webp"
+    }
   },
   {
     "id": "aquilamon",
@@ -2027,7 +2327,7 @@ export const digimon = [
     ],
     "type": "Giant Bird",
     "element": "Giant Bird",
-    "image": "assets/digimon/standard/aquilamon.png",
+    "image": "assets/digimon/optimized/aquilamon-960.webp",
     "color": "sand",
     "description": "Ave gigante com chifres, conhecida por sua visão aguçada.",
     "attacks": [
@@ -2055,7 +2355,13 @@ export const digimon = [
     "previousArtSource": "https://digimon.net/cimages/digimon/aquilamon.jpg",
     "originalArtImage": "assets/digimon/aquilamon-transparent.png",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/aquilamon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/aquilamon-160.webp",
+      "medium": "assets/digimon/optimized/aquilamon-480.webp",
+      "large": "assets/digimon/optimized/aquilamon-960.webp"
+    }
   },
   {
     "id": "ankylomon",
@@ -2069,7 +2375,7 @@ export const digimon = [
     ],
     "type": "Armored Dragon",
     "element": "Armored Dragon",
-    "image": "assets/digimon/ankylomon-transparent.png",
+    "image": "assets/digimon/optimized/ankylomon-960.webp",
     "color": "sand",
     "description": "Dinossauro protegido por placas de armadura e uma maça na cauda.",
     "attacks": [
@@ -2093,7 +2399,13 @@ export const digimon = [
         "source": "https://digimon.net/reference_en/detail.php?directory_name=ankylomon"
       }
     ],
-    "artScale": 1
+    "artScale": 1,
+    "sourceImage": "assets/digimon/ankylomon-transparent.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/ankylomon-160.webp",
+      "medium": "assets/digimon/optimized/ankylomon-480.webp",
+      "large": "assets/digimon/optimized/ankylomon-960.webp"
+    }
   },
   {
     "id": "flamedramon",
@@ -2109,7 +2421,7 @@ export const digimon = [
     ],
     "type": "Dragon Man",
     "element": "Dragon Man",
-    "image": "assets/digimon/flamedramon-transparent.png",
+    "image": "assets/digimon/optimized/flamedramon-960.webp",
     "color": "sand",
     "description": "Forma Armor associada ao Digiovo da Coragem, que envolve seus golpes em chamas.",
     "attacks": [
@@ -2133,7 +2445,13 @@ export const digimon = [
         "source": "https://digimon.net/reference_en/detail.php?directory_name=fladramon"
       }
     ],
-    "artScale": 1
+    "artScale": 1,
+    "sourceImage": "assets/digimon/flamedramon-transparent.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/flamedramon-160.webp",
+      "medium": "assets/digimon/optimized/flamedramon-480.webp",
+      "large": "assets/digimon/optimized/flamedramon-960.webp"
+    }
   },
   {
     "id": "raidramon",
@@ -2149,7 +2467,7 @@ export const digimon = [
     ],
     "type": "Beast",
     "element": "Beast",
-    "image": "assets/digimon/raidramon-transparent.png",
+    "image": "assets/digimon/optimized/raidramon-960.webp",
     "color": "sand",
     "description": "Forma Armor associada ao Digiovo da Amizade, com técnicas elétricas.",
     "attacks": [
@@ -2173,7 +2491,13 @@ export const digimon = [
         "source": "https://digimon.net/reference_en/detail.php?directory_name=lighdramon"
       }
     ],
-    "artScale": 1
+    "artScale": 1,
+    "sourceImage": "assets/digimon/raidramon-transparent.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/raidramon-160.webp",
+      "medium": "assets/digimon/optimized/raidramon-480.webp",
+      "large": "assets/digimon/optimized/raidramon-960.webp"
+    }
   },
   {
     "id": "magnamon",
@@ -2187,7 +2511,7 @@ export const digimon = [
     ],
     "type": "Holy Knight",
     "element": "Holy Knight",
-    "image": "assets/digimon/magnamon-transparent.png",
+    "image": "assets/digimon/optimized/magnamon-960.webp",
     "color": "sand",
     "description": "Cavaleiro de armadura dourada associado ao Digiovo dos Milagres.",
     "attacks": [
@@ -2211,7 +2535,13 @@ export const digimon = [
         "source": "https://digimon.net/reference_en/detail.php?directory_name=magnamon"
       }
     ],
-    "artScale": 1
+    "artScale": 1,
+    "sourceImage": "assets/digimon/magnamon-transparent.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/magnamon-160.webp",
+      "medium": "assets/digimon/optimized/magnamon-480.webp",
+      "large": "assets/digimon/optimized/magnamon-960.webp"
+    }
   },
   {
     "id": "halsemon",
@@ -2227,7 +2557,7 @@ export const digimon = [
     ],
     "type": "Beast",
     "element": "Beast",
-    "image": "assets/digimon/halsemon-transparent.png",
+    "image": "assets/digimon/optimized/halsemon-960.webp",
     "color": "sand",
     "description": "Forma Armor associada ao Digiovo do Amor, com grande capacidade de voo.",
     "attacks": [
@@ -2257,7 +2587,13 @@ export const digimon = [
         "source": "https://digimon.net/reference_en/detail.php?directory_name=holsmon"
       }
     ],
-    "artScale": 1
+    "artScale": 1,
+    "sourceImage": "assets/digimon/halsemon-transparent.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/halsemon-160.webp",
+      "medium": "assets/digimon/optimized/halsemon-480.webp",
+      "large": "assets/digimon/optimized/halsemon-960.webp"
+    }
   },
   {
     "id": "shurimon",
@@ -2271,7 +2607,7 @@ export const digimon = [
     ],
     "type": "Mutant",
     "element": "Mutant",
-    "image": "assets/digimon/shurimon-transparent.png",
+    "image": "assets/digimon/optimized/shurimon-960.webp",
     "color": "sand",
     "description": "Forma Armor associada ao Digiovo da Sinceridade, com técnicas de ninja.",
     "attacks": [
@@ -2295,7 +2631,13 @@ export const digimon = [
         "source": "https://digimon.net/reference_en/detail.php?directory_name=shurimon"
       }
     ],
-    "artScale": 1
+    "artScale": 1,
+    "sourceImage": "assets/digimon/shurimon-transparent.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/shurimon-160.webp",
+      "medium": "assets/digimon/optimized/shurimon-480.webp",
+      "large": "assets/digimon/optimized/shurimon-960.webp"
+    }
   },
   {
     "id": "digmon",
@@ -2309,7 +2651,7 @@ export const digimon = [
     ],
     "type": "Insectoid",
     "element": "Insectoid",
-    "image": "assets/digimon/digmon-transparent.png",
+    "image": "assets/digimon/optimized/digmon-960.webp",
     "color": "sand",
     "description": "Forma Armor associada ao Digiovo do Conhecimento, equipada com brocas.",
     "attacks": [
@@ -2333,7 +2675,13 @@ export const digimon = [
         "source": "https://digimon.net/reference_en/detail.php?directory_name=digmon"
       }
     ],
-    "artScale": 1
+    "artScale": 1,
+    "sourceImage": "assets/digimon/digmon-transparent.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/digmon-160.webp",
+      "medium": "assets/digimon/optimized/digmon-480.webp",
+      "large": "assets/digimon/optimized/digmon-960.webp"
+    }
   },
   {
     "id": "submarimon",
@@ -2349,7 +2697,7 @@ export const digimon = [
     ],
     "type": "Aquatic",
     "element": "Aquatic",
-    "image": "assets/digimon/standard/submarimon.png",
+    "image": "assets/digimon/optimized/submarimon-960.webp",
     "color": "sand",
     "description": "Forma Armor associada ao Digiovo da Confiança, adaptada à exploração subaquática.",
     "attacks": [
@@ -2377,7 +2725,13 @@ export const digimon = [
     "previousArtSource": "https://digimon.net/cimages/digimon/sabmarimon.jpg",
     "originalArtImage": "assets/digimon/submarimon-transparent.png",
     "artStyleReference": "assets/digimon/imperialdramon-transparent.png",
-    "artPosition": "50% 50%"
+    "artPosition": "50% 50%",
+    "sourceImage": "assets/digimon/standard/submarimon.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/submarimon-160.webp",
+      "medium": "assets/digimon/optimized/submarimon-480.webp",
+      "large": "assets/digimon/optimized/submarimon-960.webp"
+    }
   },
   {
     "id": "pegasusmon",
@@ -2393,7 +2747,7 @@ export const digimon = [
     ],
     "type": "Holy Beast",
     "element": "Holy Beast",
-    "image": "assets/digimon/pegasusmon-transparent.png",
+    "image": "assets/digimon/optimized/pegasusmon-960.webp",
     "color": "sand",
     "description": "Forma Armor associada ao Digiovo da Esperança, com aparência de cavalo alado.",
     "attacks": [
@@ -2423,7 +2777,13 @@ export const digimon = [
         "source": "https://digimon.net/reference_en/detail.php?directory_name=pegasmon"
       }
     ],
-    "artScale": 1
+    "artScale": 1,
+    "sourceImage": "assets/digimon/pegasusmon-transparent.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/pegasusmon-160.webp",
+      "medium": "assets/digimon/optimized/pegasusmon-480.webp",
+      "large": "assets/digimon/optimized/pegasusmon-960.webp"
+    }
   },
   {
     "id": "nefertimon",
@@ -2437,7 +2797,7 @@ export const digimon = [
     ],
     "type": "Holy Beast",
     "element": "Holy Beast",
-    "image": "assets/digimon/nefertimon-transparent.png",
+    "image": "assets/digimon/optimized/nefertimon-960.webp",
     "color": "sand",
     "description": "Forma Armor associada ao Digiovo da Luz, inspirada em uma esfinge alada.",
     "attacks": [
@@ -2461,7 +2821,13 @@ export const digimon = [
         "source": "https://digimon.net/reference_en/detail.php?directory_name=nefertimon"
       }
     ],
-    "artScale": 1
+    "artScale": 1,
+    "sourceImage": "assets/digimon/nefertimon-transparent.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/nefertimon-160.webp",
+      "medium": "assets/digimon/optimized/nefertimon-480.webp",
+      "large": "assets/digimon/optimized/nefertimon-960.webp"
+    }
   },
   {
     "id": "paildramon",
@@ -2475,7 +2841,7 @@ export const digimon = [
     ],
     "type": "Dragon Man",
     "element": "Dragon Man",
-    "image": "assets/digimon/paildramon-transparent.png",
+    "image": "assets/digimon/optimized/paildramon-960.webp",
     "color": "sand",
     "description": "Combina características de dragão e inseto na união de ExVeemon e Stingmon.",
     "attacks": [
@@ -2499,7 +2865,13 @@ export const digimon = [
         "source": "https://digimon.net/reference_en/detail.php?directory_name=paildramon"
       }
     ],
-    "artScale": 1
+    "artScale": 1,
+    "sourceImage": "assets/digimon/paildramon-transparent.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/paildramon-160.webp",
+      "medium": "assets/digimon/optimized/paildramon-480.webp",
+      "large": "assets/digimon/optimized/paildramon-960.webp"
+    }
   },
   {
     "id": "silphymon",
@@ -2513,7 +2885,7 @@ export const digimon = [
     ],
     "type": "Beast Man",
     "element": "Beast Man",
-    "image": "assets/digimon/silphymon-transparent.png",
+    "image": "assets/digimon/optimized/silphymon-960.webp",
     "color": "sand",
     "description": "Guerreiro alado que combina as características de Aquilamon e Gatomon.",
     "attacks": [
@@ -2537,7 +2909,13 @@ export const digimon = [
         "source": "https://digimon.net/reference_en/detail.php?directory_name=silphymon"
       }
     ],
-    "artScale": 1
+    "artScale": 1,
+    "sourceImage": "assets/digimon/silphymon-transparent.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/silphymon-160.webp",
+      "medium": "assets/digimon/optimized/silphymon-480.webp",
+      "large": "assets/digimon/optimized/silphymon-960.webp"
+    }
   },
   {
     "id": "shakkoumon",
@@ -2551,7 +2929,7 @@ export const digimon = [
     ],
     "type": "Mutant",
     "element": "Mutant",
-    "image": "assets/digimon/shakkoumon-transparent.png",
+    "image": "assets/digimon/optimized/shakkoumon-960.webp",
     "color": "sand",
     "description": "Digimon de aparência semelhante a uma figura de argila, associado à união de Ankylomon e Angemon.",
     "attacks": [
@@ -2575,7 +2953,13 @@ export const digimon = [
         "source": "https://digimon.net/reference_en/detail.php?directory_name=shakkoumon"
       }
     ],
-    "artScale": 1
+    "artScale": 1,
+    "sourceImage": "assets/digimon/shakkoumon-transparent.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/shakkoumon-160.webp",
+      "medium": "assets/digimon/optimized/shakkoumon-480.webp",
+      "large": "assets/digimon/optimized/shakkoumon-960.webp"
+    }
   },
   {
     "id": "imperialdramon",
@@ -2592,7 +2976,7 @@ export const digimon = [
     ],
     "type": "Ancient Dragon",
     "element": "Ancient Dragon",
-    "image": "assets/digimon/imperialdramon-transparent.png",
+    "image": "assets/digimon/optimized/imperialdramon-960.webp",
     "color": "sand",
     "description": "Dragão ancestral de enorme poder, capaz de assumir uma forma de combate humanoide.",
     "attacks": [
@@ -2610,7 +2994,13 @@ export const digimon = [
         "source": "https://digimon.net/reference_en/detail.php?directory_name=imperialdramondragonmode"
       }
     ],
-    "artScale": 0.9
+    "artScale": 0.9,
+    "sourceImage": "assets/digimon/imperialdramon-transparent.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/imperialdramon-160.webp",
+      "medium": "assets/digimon/optimized/imperialdramon-480.webp",
+      "large": "assets/digimon/optimized/imperialdramon-960.webp"
+    }
   },
   {
     "id": "imperialdramonfm",
@@ -2626,7 +3016,7 @@ export const digimon = [
     ],
     "type": "Ancient Dragon Man",
     "element": "Ancient Dragon Man",
-    "image": "assets/digimon/imperialdramonfm-transparent.png",
+    "image": "assets/digimon/optimized/imperialdramonfm-960.webp",
     "color": "sand",
     "description": "Forma de combate humanoide de Imperialdramon, com controle aprimorado de seu poder.",
     "attacks": [
@@ -2650,7 +3040,13 @@ export const digimon = [
         "source": "https://digimon.net/reference_en/detail.php?directory_name=imperialdramonfightermode"
       }
     ],
-    "artScale": 0.9
+    "artScale": 0.9,
+    "sourceImage": "assets/digimon/imperialdramonfm-transparent.png",
+    "imageVariants": {
+      "thumbnail": "assets/digimon/optimized/imperialdramonfm-160.webp",
+      "medium": "assets/digimon/optimized/imperialdramonfm-480.webp",
+      "large": "assets/digimon/optimized/imperialdramonfm-960.webp"
+    }
   }
 ];
 export const attributeLabels = {Vaccine:"Vacina",Data:"Dados",Virus:"Vírus",Free:"Livre",Unknown:"Não identificado"};

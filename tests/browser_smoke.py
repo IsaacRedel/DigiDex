@@ -20,9 +20,14 @@ with sync_playwright() as p:
     assert page.evaluate("document.fonts.check('30px DigimonBasic')"), "Fonte temática não carregou"
     expect(page.locator(".digi-card")).to_have_count(66)
     expect(page.locator("#partner-name")).to_have_text("Agumon")
+    # A ficha usa WebP responsivo; o catálogo recebe a miniatura de 160 px.
+    art_response = page.request.get(page.locator("#partner-image").evaluate("img => img.currentSrc"))
+    assert art_response.headers.get("content-type") == "image/webp"
+    expect(page.locator(".digi-card img").first).to_have_attribute("src", "./assets/digimon/optimized/agumon-160.webp")
+    assert page.locator("#partner-image").get_attribute("srcset"), "Imagem principal sem variantes responsivas"
     page.get_by_role("button", name="Selecionar Gabumon", exact=True).click()
     expect(page.locator("#partner-name")).to_have_text("Gabumon")
-    expect(page.locator("#partner-image")).to_have_attribute("src", "./assets/digimon/standard/gabumon.png")
+    expect(page.locator("#partner-image")).to_have_attribute("src", "./assets/digimon/optimized/gabumon-960.webp")
     expect(page.locator("#partner-element")).to_have_text("Reptile")
     page.get_by_role("button", name="Próximo parceiro").click()
     expect(page.locator("#partner-name")).to_have_text("WarGreymon")
@@ -117,12 +122,12 @@ with sync_playwright() as p:
     expect(blocked_page.locator("#toast")).to_contain_text("não permitiu salvar")
     blocked.close()
     missing_art = browser.new_context()
-    missing_art.route("**/assets/digimon/standard/agumon.png", lambda route: route.abort())
+    missing_art.route("**/assets/digimon/optimized/agumon-*.webp", lambda route: route.abort())
     missing_page = missing_art.new_page()
     missing_page.goto("http://127.0.0.1:4173", wait_until="networkidle")
     missing_page.get_by_role("button", name="Selecionar Gabumon", exact=True).click()
     expect(missing_page.locator("#partner-image")).to_be_visible()
-    expect(missing_page.locator("#partner-image")).to_have_attribute("src", "./assets/digimon/standard/gabumon.png")
+    expect(missing_page.locator("#partner-image")).to_have_attribute("src", "./assets/digimon/optimized/gabumon-960.webp")
     expect(missing_page.locator("#partner-element")).to_have_text("Reptile")
     missing_art.close()
     assert not errors, errors

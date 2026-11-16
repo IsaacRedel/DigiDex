@@ -1,3 +1,4 @@
+import { artPath } from "./art.js";
 import { digimon } from "./data.js";
 import { edges, findEvolutionPath } from "./experience-model.js";
 const $ = (s) => document.querySelector(s);
@@ -78,7 +79,7 @@ export function setupGraph(onOpen) {
     button.className = "branch-node";
     button.setAttribute("aria-label", "Consultar " + d.name);
     const img = document.createElement("img");
-    img.src = "./" + d.image;
+    img.src = artPath(d, "thumbnail");
     img.alt = "";
     img.loading = "lazy";
     const name = document.createElement("span");

@@ -1,3 +1,4 @@
+import { artPath, artSrcset, artSizes } from "./art.js";
 import { digimon, attributeLabels } from "./data.js";
 
 const $ = (selector) => document.querySelector(selector);
@@ -19,7 +20,9 @@ export function selectPartner(id, announce = true) {
   $("#partner-name").textContent = d.name;
   $("#partner-number").textContent = d.number;
   $("#partner-japanese").textContent = d.japaneseName;
-  $("#partner-image").src = `./${d.image}`;
+  $("#partner-image").sizes = artSizes;
+  $("#partner-image").srcset = artSrcset(d);
+  $("#partner-image").src = artPath(d);
   $("#partner-image").alt = d.name;
   $("#partner-image").style.scale = String(d.artScale || 1);
   $("#partner-image").style.objectPosition = d.artPosition || "50% 50%";
@@ -109,7 +112,7 @@ export function setupTerminal({ onOpen, onFavorite, favorites }) {
       button.dataset.partner = d.id;
       button.setAttribute("aria-label", `Selecionar ${d.name}`);
       const img = document.createElement("img");
-      img.src = `./${d.image}`;
+      img.src = artPath(d, "thumbnail");
       img.alt = "";
       img.loading = "lazy";
       const name = document.createElement("span");

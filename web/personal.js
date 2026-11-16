@@ -1,3 +1,4 @@
+import { artPath } from "./art.js";
 import { digimon } from "./data.js";
 import {
   libraryKey,
@@ -78,7 +79,7 @@ export function setupPersonal(
       ? list.ids
           .map((id) => {
             const d = digimon.find((d) => d.id === id);
-            return `<article><button data-personal-open="${id}"><img src="./${d.image}" alt="" loading="lazy"><strong>${escape(d.name)}</strong></button><button class="button quiet" data-remove-member="${id}" aria-label="Remover ${escape(d.name)} desta lista">Remover</button></article>`;
+            return `<article><button data-personal-open="${id}"><img src="${artPath(d, "thumbnail")}" alt="" loading="lazy"><strong>${escape(d.name)}</strong></button><button class="button quiet" data-remove-member="${id}" aria-label="Remover ${escape(d.name)} desta lista">Remover</button></article>`;
           })
           .join("")
       : "<p>Escolha um parceiro no terminal e use “Adicionar à lista” na ficha para começar.</p>";
@@ -250,7 +251,7 @@ function setupDiscovery(open) {
     $("#quiz-art").innerHTML =
       mode === "clues"
         ? '<span class="quiz-question-mark" aria-hidden="true">?</span>'
-        : `<img class="${mode === "silhouette" ? "silhouette" : ""}" src="./${question.answer.image}" alt="${mode === "silhouette" ? "Silhueta de um Digimon para identificar" : "Arte de um Digimon para identificar"}">`;
+        : `<img class="${mode === "silhouette" ? "silhouette" : ""}" src="${artPath(question.answer, "medium")}" alt="${mode === "silhouette" ? "Silhueta de um Digimon para identificar" : "Arte de um Digimon para identificar"}">`;
     $("#quiz-clue").textContent =
       mode === "clues"
         ? `Estágio ${question.answer.level}. Atributo ${question.answer.attribute}. Tipo ${question.answer.type}.`
@@ -280,7 +281,7 @@ function setupDiscovery(open) {
         ? `Acertou! É ${question.answer.name}.`
         : `A resposta é ${question.answer.name}.`;
     $("#quiz-art").innerHTML =
-      `<img src="./${question.answer.image}" alt="${escape(question.answer.name)}">`;
+      `<img src="${artPath(question.answer, "medium")}" alt="${escape(question.answer.name)}">`;
     $("#quiz-options")
       .querySelectorAll("button")
       .forEach((button) => {

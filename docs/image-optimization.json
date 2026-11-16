@@ -1,0 +1,1461 @@
+{
+  "quality": 88,
+  "count": 66,
+  "sourceBytes": 78264863,
+  "optimizedBytes": 14308820,
+  "reductionPercent": 81.72,
+  "images": [
+    {
+      "id": "agumon",
+      "source": "assets/digimon/standard/agumon.png",
+      "sourceBytes": 993177,
+      "variants": {
+        "thumbnail": {
+          "bytes": 8906,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 38722,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 102070,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "gabumon",
+      "source": "assets/digimon/standard/gabumon.png",
+      "sourceBytes": 1307869,
+      "variants": {
+        "thumbnail": {
+          "bytes": 11606,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 53352,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 139436,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "wargreymon",
+      "source": "assets/digimon/standard/wargreymon.png",
+      "sourceBytes": 1323551,
+      "variants": {
+        "thumbnail": {
+          "bytes": 11580,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 55578,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 154670,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "metalgarurumon",
+      "source": "assets/digimon/standard/metalgarurumon.png",
+      "sourceBytes": 1066524,
+      "variants": {
+        "thumbnail": {
+          "bytes": 10960,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 51082,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 142570,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "omegamon",
+      "source": "assets/digimon/standard/omegamon.png",
+      "sourceBytes": 1246604,
+      "variants": {
+        "thumbnail": {
+          "bytes": 11174,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 51292,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 144148,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "greymon",
+      "source": "assets/digimon/standard/greymon.png",
+      "sourceBytes": 1213396,
+      "variants": {
+        "thumbnail": {
+          "bytes": 12012,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 56050,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 154898,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "metalgreymon",
+      "source": "assets/digimon/standard/metalgreymon.png",
+      "sourceBytes": 1324603,
+      "variants": {
+        "thumbnail": {
+          "bytes": 13014,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 63176,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 180588,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "garurumon",
+      "source": "assets/digimon/standard/garurumon.png",
+      "sourceBytes": 1240186,
+      "variants": {
+        "thumbnail": {
+          "bytes": 12288,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 58754,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 166864,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "weregarurumon",
+      "source": "assets/digimon/standard/weregarurumon.png",
+      "sourceBytes": 1426131,
+      "variants": {
+        "thumbnail": {
+          "bytes": 11840,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 60720,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 175058,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "biyomon",
+      "source": "assets/digimon/standard/biyomon.png",
+      "sourceBytes": 922112,
+      "variants": {
+        "thumbnail": {
+          "bytes": 9080,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 39768,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 108496,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "birdramon",
+      "source": "assets/digimon/standard/birdramon.png",
+      "sourceBytes": 1032848,
+      "variants": {
+        "thumbnail": {
+          "bytes": 12874,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 64862,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 194800,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "garudamon",
+      "source": "assets/digimon/standard/garudamon.png",
+      "sourceBytes": 1350861,
+      "variants": {
+        "thumbnail": {
+          "bytes": 12776,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 65294,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 188854,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "phoenixmon",
+      "source": "assets/digimon/standard/phoenixmon.png",
+      "sourceBytes": 1578840,
+      "variants": {
+        "thumbnail": {
+          "bytes": 15456,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 79200,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 235472,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "tentomon",
+      "source": "assets/digimon/standard/tentomon.png",
+      "sourceBytes": 1065165,
+      "variants": {
+        "thumbnail": {
+          "bytes": 10500,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 45582,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 122998,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "kabuterimon",
+      "source": "assets/digimon/standard/kabuterimon.png",
+      "sourceBytes": 1477736,
+      "variants": {
+        "thumbnail": {
+          "bytes": 14542,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 71120,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 199754,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "megakabuterimon",
+      "source": "assets/digimon/standard/megakabuterimon.png",
+      "sourceBytes": 1481938,
+      "variants": {
+        "thumbnail": {
+          "bytes": 13306,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 64634,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 185856,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "herculeskabuterimon",
+      "source": "assets/digimon/standard/herculeskabuterimon.png",
+      "sourceBytes": 1438097,
+      "variants": {
+        "thumbnail": {
+          "bytes": 14184,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 69352,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 200450,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "palmon",
+      "source": "assets/digimon/standard/palmon.png",
+      "sourceBytes": 1190338,
+      "variants": {
+        "thumbnail": {
+          "bytes": 12386,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 55656,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 155952,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "togemon",
+      "source": "assets/digimon/standard/togemon.png",
+      "sourceBytes": 1144397,
+      "variants": {
+        "thumbnail": {
+          "bytes": 10834,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 48290,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 129898,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "lillymon",
+      "source": "assets/digimon/standard/lillymon.png",
+      "sourceBytes": 943010,
+      "variants": {
+        "thumbnail": {
+          "bytes": 9686,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 46096,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 132696,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "rosemon",
+      "source": "assets/digimon/standard/rosemon.png",
+      "sourceBytes": 1066613,
+      "variants": {
+        "thumbnail": {
+          "bytes": 10358,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 47184,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 132712,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "gomamon",
+      "source": "assets/digimon/standard/gomamon.png",
+      "sourceBytes": 1083909,
+      "variants": {
+        "thumbnail": {
+          "bytes": 9726,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 42404,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 111962,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "ikkakumon",
+      "source": "assets/digimon/standard/ikkakumon.png",
+      "sourceBytes": 1372557,
+      "variants": {
+        "thumbnail": {
+          "bytes": 10836,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 50874,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 140302,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "zudomon",
+      "source": "assets/digimon/standard/zudomon.png",
+      "sourceBytes": 1267314,
+      "variants": {
+        "thumbnail": {
+          "bytes": 11152,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 54134,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 156146,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "vikemon",
+      "source": "assets/digimon/standard/vikemon.png",
+      "sourceBytes": 1756013,
+      "variants": {
+        "thumbnail": {
+          "bytes": 13188,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 66542,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 187082,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "patamon",
+      "source": "assets/digimon/standard/patamon.png",
+      "sourceBytes": 880463,
+      "variants": {
+        "thumbnail": {
+          "bytes": 8190,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 32644,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 90970,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "angemon",
+      "source": "assets/digimon/standard/angemon.png",
+      "sourceBytes": 1196301,
+      "variants": {
+        "thumbnail": {
+          "bytes": 12744,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 61602,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 176836,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "magnaangemon",
+      "source": "assets/digimon/standard/magnaangemon.png",
+      "sourceBytes": 1785730,
+      "variants": {
+        "thumbnail": {
+          "bytes": 15588,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 84960,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 273662,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "seraphimon",
+      "source": "assets/digimon/standard/seraphimon.png",
+      "sourceBytes": 1343050,
+      "variants": {
+        "thumbnail": {
+          "bytes": 12488,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 66038,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 194538,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "gatomon",
+      "source": "assets/digimon/standard/gatomon.png",
+      "sourceBytes": 1086731,
+      "variants": {
+        "thumbnail": {
+          "bytes": 11276,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 47208,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 129264,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "angewomon",
+      "source": "assets/digimon/standard/angewomon.png",
+      "sourceBytes": 1533155,
+      "variants": {
+        "thumbnail": {
+          "bytes": 14632,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 76976,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 228054,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "magnadramon",
+      "source": "assets/digimon/standard/magnadramon.png",
+      "sourceBytes": 1161537,
+      "variants": {
+        "thumbnail": {
+          "bytes": 10670,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 53402,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 160228,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "guilmon",
+      "source": "assets/digimon/standard/guilmon.png",
+      "sourceBytes": 926060,
+      "variants": {
+        "thumbnail": {
+          "bytes": 10440,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 47792,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 132636,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "growlmon",
+      "source": "assets/digimon/standard/growlmon.png",
+      "sourceBytes": 1317068,
+      "variants": {
+        "thumbnail": {
+          "bytes": 12506,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 57868,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 157834,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "wargrowlmon",
+      "source": "assets/digimon/standard/wargrowlmon.png",
+      "sourceBytes": 1406903,
+      "variants": {
+        "thumbnail": {
+          "bytes": 12446,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 58668,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 160382,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "gallantmon",
+      "source": "assets/digimon/standard/gallantmon.png",
+      "sourceBytes": 1322094,
+      "variants": {
+        "thumbnail": {
+          "bytes": 13526,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 61622,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 175834,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "renamon",
+      "source": "assets/digimon/standard/renamon.png",
+      "sourceBytes": 996751,
+      "variants": {
+        "thumbnail": {
+          "bytes": 11012,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 48780,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 142930,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "kyubimon",
+      "source": "assets/digimon/standard/kyubimon.png",
+      "sourceBytes": 1387059,
+      "variants": {
+        "thumbnail": {
+          "bytes": 13652,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 69732,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 205594,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "taomon",
+      "source": "assets/digimon/standard/taomon.png",
+      "sourceBytes": 1276223,
+      "variants": {
+        "thumbnail": {
+          "bytes": 12114,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 58232,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 159298,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "sakuyamon",
+      "source": "assets/digimon/standard/sakuyamon.png",
+      "sourceBytes": 1357454,
+      "variants": {
+        "thumbnail": {
+          "bytes": 14074,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 70190,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 207854,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "terriermon",
+      "source": "assets/digimon/standard/terriermon.png",
+      "sourceBytes": 621202,
+      "variants": {
+        "thumbnail": {
+          "bytes": 6426,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 25308,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 69936,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "gargomon",
+      "source": "assets/digimon/standard/gargomon.png",
+      "sourceBytes": 1124488,
+      "variants": {
+        "thumbnail": {
+          "bytes": 10374,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 42698,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 117898,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "rapidmon",
+      "source": "assets/digimon/standard/rapidmon.png",
+      "sourceBytes": 1131180,
+      "variants": {
+        "thumbnail": {
+          "bytes": 11046,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 48564,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 136204,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "megagargomon",
+      "source": "assets/digimon/standard/megagargomon.png",
+      "sourceBytes": 1320748,
+      "variants": {
+        "thumbnail": {
+          "bytes": 11234,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 54078,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 149552,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "veemon",
+      "source": "assets/digimon/standard/veemon.png",
+      "sourceBytes": 856484,
+      "variants": {
+        "thumbnail": {
+          "bytes": 8924,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 38620,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 102814,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "wormmon",
+      "source": "assets/digimon/standard/wormmon.png",
+      "sourceBytes": 748151,
+      "variants": {
+        "thumbnail": {
+          "bytes": 7946,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 33394,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 92902,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "hawkmon",
+      "source": "assets/digimon/standard/hawkmon.png",
+      "sourceBytes": 1155946,
+      "variants": {
+        "thumbnail": {
+          "bytes": 11158,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 47680,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 133514,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "armadillomon",
+      "source": "assets/digimon/standard/armadillomon.png",
+      "sourceBytes": 959371,
+      "variants": {
+        "thumbnail": {
+          "bytes": 9328,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 43206,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 119298,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "exveemon",
+      "source": "assets/digimon/exveemon-transparent.png",
+      "sourceBytes": 1187521,
+      "variants": {
+        "thumbnail": {
+          "bytes": 12362,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 55986,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 153906,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "stingmon",
+      "source": "assets/digimon/stingmon-transparent.png",
+      "sourceBytes": 931751,
+      "variants": {
+        "thumbnail": {
+          "bytes": 9360,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 40604,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 109478,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "aquilamon",
+      "source": "assets/digimon/standard/aquilamon.png",
+      "sourceBytes": 1000301,
+      "variants": {
+        "thumbnail": {
+          "bytes": 10366,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 48536,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 137196,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "ankylomon",
+      "source": "assets/digimon/ankylomon-transparent.png",
+      "sourceBytes": 1130462,
+      "variants": {
+        "thumbnail": {
+          "bytes": 10604,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 48576,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 129594,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "flamedramon",
+      "source": "assets/digimon/flamedramon-transparent.png",
+      "sourceBytes": 963609,
+      "variants": {
+        "thumbnail": {
+          "bytes": 10764,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 53690,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 150604,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "raidramon",
+      "source": "assets/digimon/raidramon-transparent.png",
+      "sourceBytes": 895262,
+      "variants": {
+        "thumbnail": {
+          "bytes": 9128,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 38180,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 101864,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "magnamon",
+      "source": "assets/digimon/magnamon-transparent.png",
+      "sourceBytes": 1321759,
+      "variants": {
+        "thumbnail": {
+          "bytes": 13732,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 65262,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 188910,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "halsemon",
+      "source": "assets/digimon/halsemon-transparent.png",
+      "sourceBytes": 1063066,
+      "variants": {
+        "thumbnail": {
+          "bytes": 10894,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 47990,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 130272,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "shurimon",
+      "source": "assets/digimon/shurimon-transparent.png",
+      "sourceBytes": 1078736,
+      "variants": {
+        "thumbnail": {
+          "bytes": 10888,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 49374,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 136666,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "digmon",
+      "source": "assets/digimon/digmon-transparent.png",
+      "sourceBytes": 936479,
+      "variants": {
+        "thumbnail": {
+          "bytes": 10306,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 45896,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 126702,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "submarimon",
+      "source": "assets/digimon/standard/submarimon.png",
+      "sourceBytes": 815855,
+      "variants": {
+        "thumbnail": {
+          "bytes": 7196,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 31744,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 88722,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "pegasusmon",
+      "source": "assets/digimon/pegasusmon-transparent.png",
+      "sourceBytes": 1242574,
+      "variants": {
+        "thumbnail": {
+          "bytes": 11912,
+          "width": 160,
+          "height": 146
+        },
+        "medium": {
+          "bytes": 55880,
+          "width": 480,
+          "height": 439
+        },
+        "large": {
+          "bytes": 157422,
+          "width": 960,
+          "height": 877
+        }
+      }
+    },
+    {
+      "id": "nefertimon",
+      "source": "assets/digimon/nefertimon-transparent.png",
+      "sourceBytes": 1378716,
+      "variants": {
+        "thumbnail": {
+          "bytes": 12666,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 58122,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 161868,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "paildramon",
+      "source": "assets/digimon/paildramon-transparent.png",
+      "sourceBytes": 1177327,
+      "variants": {
+        "thumbnail": {
+          "bytes": 11550,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 52954,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 146294,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "silphymon",
+      "source": "assets/digimon/silphymon-transparent.png",
+      "sourceBytes": 1219389,
+      "variants": {
+        "thumbnail": {
+          "bytes": 12548,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 57704,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 160492,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "shakkoumon",
+      "source": "assets/digimon/shakkoumon-transparent.png",
+      "sourceBytes": 1207041,
+      "variants": {
+        "thumbnail": {
+          "bytes": 10036,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 49974,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 136260,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "imperialdramon",
+      "source": "assets/digimon/imperialdramon-transparent.png",
+      "sourceBytes": 1295092,
+      "variants": {
+        "thumbnail": {
+          "bytes": 12788,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 60134,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 166124,
+          "width": 960,
+          "height": 960
+        }
+      }
+    },
+    {
+      "id": "imperialdramonfm",
+      "source": "assets/digimon/imperialdramonfm-transparent.png",
+      "sourceBytes": 1211985,
+      "variants": {
+        "thumbnail": {
+          "bytes": 12624,
+          "width": 160,
+          "height": 160
+        },
+        "medium": {
+          "bytes": 58780,
+          "width": 480,
+          "height": 480
+        },
+        "large": {
+          "bytes": 160534,
+          "width": 960,
+          "height": 960
+        }
+      }
+    }
+  ]
+}

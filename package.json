@@ -8,7 +8,11 @@
     "dev": "node scripts/serve.mjs",
     "build": "node scripts/build.mjs",
     "preview": "node scripts/serve.mjs dist",
-    "test": "node --test"
+    "test": "node --test",
+    "images:optimize": "python scripts/optimize-images.py",
+    "check:images": "python tests/transparent-art.py && python tests/optimized_art.py",
+    "test:browser": "node scripts/check-browser.mjs",
+    "check": "npm test && npm run check:images && npm run build"
   },
   "engines": {
     "node": ">=22"

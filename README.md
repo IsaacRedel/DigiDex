@@ -1,5 +1,7 @@
 # DigiDex — Terminal Adventure
 
+[![Checks](https://github.com/IsaacRedel/DigiDex/actions/workflows/checks.yml/badge.svg)](https://github.com/IsaacRedel/DigiDex/actions/workflows/checks.yml)
+
 Catálogo web de **66 Digimon** com mapa de evoluções, busca de caminhos, comparador e listas pessoais. Funciona offline e pode ser instalado como app.
 
 ## ✨ Destaques
@@ -27,7 +29,9 @@ Encerre o `dev` antes de iniciar o `preview`. Em produção, o modo offline exig
 ## 🧪 Testes
 
 - **`npm test`:** cobre busca, filtros, comparação, grafo de evoluções, backup e quiz.
-- **Testes de navegador** (Playwright + Chromium, em larguras de 320 a 1440 px): com o `preview` rodando, execute `python tests/browser_smoke.py`, `python tests/exploration_browser.py` e `python tests/experience_browser.py`.
+- **`npm run check`:** testes, validação de imagens e build.
+- **`npm run test:browser`:** quatro roteiros Chromium, incluindo teclado, backup e recarga offline, em larguras de 320 a 1440 px. Inicia e encerra seu próprio preview.
+- **GitHub Actions:** executa os checks em cada push e pull request. [Preparação e detalhes](docs/webp-and-checks.md).
 
 ## 🛠️ Stack
 
@@ -53,6 +57,7 @@ JavaScript puro (sem frameworks nem dependências), HTML, CSS e Service Worker. 
 
 - Classificações e técnicas vêm da Digimon Encyclopedia oficial. Os perfis em português são resumos editoriais, e os nomes dos ataques seguem a fonte em inglês.
 - As linhas de evolução são recortes editoriais (Adventure 2020, Adventure 02 e Tamers), não todas as variantes possíveis.
+- As 66 artes usam WebP em três tamanhos. O conjunto passou de 74,6 MiB para 13,6 MiB (−81,72%), incluindo todas as variantes. As fontes originais foram preservadas. [Relatório](docs/image-optimization.json).
 - 50 artes são reilustrações assistidas por IA a partir das referências oficiais, não artes oficiais. Cada registro guarda a referência (`artSource`), o processamento (`artProcessing`) e o arquivo anterior (`originalArtImage`). O inventário fica em `docs/art-standardization/`.
 - `python tests/transparent-art.py` e `python scripts/audit-standard-art.py` conferem transparência, resolução e enquadramento das artes.
 

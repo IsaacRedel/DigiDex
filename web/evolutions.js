@@ -1,4 +1,5 @@
 import { edges } from "./experience-model.js";
+import { artPath } from "./art.js";
 export const evolutionSource =
   "https://www.toei-anim.co.jp/tv/digimon/character/";
 export const evolutionLines = [
@@ -49,7 +50,7 @@ export function renderEvolution(id, catalog) {
         `<div class="evolution-line">${line
           .map((key) => {
             const d = catalog.find((item) => item.id === key);
-            return `<button data-evolution="${d.id}" aria-label="Explorar ${d.name}" aria-current="${key === id ? "true" : "false"}"><img src="./${d.image}" alt="" loading="lazy"><strong>${d.name}</strong><span>${d.level}</span></button>`;
+            return `<button data-evolution="${d.id}" aria-label="Explorar ${d.name}" aria-current="${key === id ? "true" : "false"}"><img src="${artPath(d, "thumbnail")}" alt="" loading="lazy"><strong>${d.name}</strong><span>${d.level}</span></button>`;
           })
           .join(
             '<span class="evolution-arrow" aria-hidden="true">→</span>',

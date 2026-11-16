@@ -1,3 +1,4 @@
+import { artPath } from "./art.js";
 import { digimon } from "./data.js";
 import { evolutionLines, evolutionSource } from "./evolutions.js";
 import { comparisonRows, collectionLabels } from "./exploration-model.js";
@@ -70,7 +71,7 @@ export function setupExploration(onOpen) {
     $("#map-nodes").innerHTML = path.ids
       .map((id, i) => {
         const d = digimon.find((d) => d.id === id);
-        return `${i ? '<span class="map-arrow" aria-hidden="true">→</span>' : ""}<button class="map-node" data-open-map="${id}" aria-label="Abrir ${escape(d.name)}"><span class="map-stage">${d.level}</span><img src="./${d.image}" alt="" loading="lazy"><strong>${escape(d.name)}</strong><span>${escape(d.japaneseName)}</span></button>`;
+        return `${i ? '<span class="map-arrow" aria-hidden="true">→</span>' : ""}<button class="map-node" data-open-map="${id}" aria-label="Abrir ${escape(d.name)}"><span class="map-stage">${d.level}</span><img src="${artPath(d, "medium")}" alt="" loading="lazy"><strong>${escape(d.name)}</strong><span>${escape(d.japaneseName)}</span></button>`;
       })
       .join("");
     $("#map-fusion").innerHTML =
@@ -121,7 +122,7 @@ export function setupExploration(onOpen) {
       (id) => digimon.find((d) => d.id === id),
     );
     $("#comparison-result").innerHTML =
-      `<div class="comparison-portraits">${pair.map((d) => `<button data-open-map="${d.id}"><img src="./${d.image}" alt=""><strong>${escape(d.name)}</strong><span>Abrir ficha ↗</span></button>`).join("")}</div><table class="comparison-table"><caption class="sr-only">Comparação de ${pair.map((d) => d.name).join(" e ")}</caption><thead><tr><th scope="col">Característica</th>${pair.map((d) => `<th scope="col">${escape(d.name)}</th>`).join("")}</tr></thead><tbody>${comparisonRows(
+      `<div class="comparison-portraits">${pair.map((d) => `<button data-open-map="${d.id}"><img src="${artPath(d, "medium")}" alt=""><strong>${escape(d.name)}</strong><span>Abrir ficha ↗</span></button>`).join("")}</div><table class="comparison-table"><caption class="sr-only">Comparação de ${pair.map((d) => d.name).join(" e ")}</caption><thead><tr><th scope="col">Característica</th>${pair.map((d) => `<th scope="col">${escape(d.name)}</th>`).join("")}</tr></thead><tbody>${comparisonRows(
         pair,
       )
         .map(
