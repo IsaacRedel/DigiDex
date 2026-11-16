@@ -1,0 +1,367 @@
+.exploration {
+  padding-block: 40px 10px;
+}
+.exploration-link {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  text-decoration: none;
+  color: #b4cede;
+}
+.mode-tabs {
+  display: flex;
+  gap: 6px;
+  border-bottom: 1px solid #35516a;
+  margin-bottom: 24px;
+}
+.mode-tabs button {
+  padding: 15px 22px;
+  background: #0d243b;
+  border: 1px solid #35516a;
+  color: #a7bed1;
+}
+.mode-tabs button[aria-selected="true"] {
+  border-bottom: 3px solid #ffad55;
+  color: #fff;
+}
+.map-toolbar,
+.compare-selectors {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.map-toolbar label,
+.compare-selectors label {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  color: #97b5cd;
+  font-size: 11px;
+  flex: 1;
+  min-width: 150px;
+}
+.map-toolbar select,
+.compare-selectors select {
+  border: 1px solid #35516a;
+  padding: 8px;
+  max-width: 100%;
+  width: 100%;
+}
+.map-scale {
+  max-width: 180px;
+}
+.map-scale input {
+  width: 100%;
+  accent-color: #ffad55;
+}
+.map-scale output {
+  font-size: 10px;
+}
+#map-context,
+#compare-panel > p {
+  font-size: 12px;
+  line-height: 1.8;
+  color: #9db8ce;
+  margin: 22px 0;
+}
+.map-canvas {
+  background: radial-gradient(ellipse at center, #173e5c, #0b2035);
+  border: 1px solid #35516a;
+  overflow-x: auto;
+  padding: 35px 25px;
+  scrollbar-color: #6087a0 #10283f;
+}
+.map-nodes {
+  --node-size: 168px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  width: max-content;
+  min-width: 100%;
+  justify-content: center;
+}
+.map-node {
+  width: var(--node-size);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px 12px;
+  border: 1px solid #42647d;
+  background: #102a40;
+  transition: border-color 0.2s;
+}
+.map-node:hover {
+  border-color: #ffad55;
+}
+.map-node img {
+  height: 155px;
+  width: 100%;
+  object-fit: contain;
+}
+.map-node strong {
+  font-size: 14px;
+  overflow-wrap: anywhere;
+  max-width: 100%;
+}
+.map-node > span {
+  font-size: 10px;
+  color: #88aac4;
+}
+.map-node > .map-stage {
+  align-self: start;
+  color: #ffb46b;
+}
+.map-arrow {
+  font-size: 27px;
+  color: #709db7;
+}
+.map-fusion {
+  padding: 20px 0;
+}
+.map-fusion > span {
+  display: block;
+  color: #ffad55;
+  font-size: 11px;
+  margin-bottom: 12px;
+}
+.map-fusion button {
+  padding: 8px 12px;
+  background: #17394f;
+  color: #dfeefa;
+  border: 1px solid #436a82;
+  font-size: 12px;
+}
+.map-fusion p,
+#map-source {
+  font-size: 11px;
+  color: #9dbbd0;
+  line-height: 1.8;
+}
+.comparison-portraits {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 25px;
+  gap: 20px;
+}
+.comparison-portraits button {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 22px;
+  background: radial-gradient(ellipse, #234861, #0e2339);
+  border: 1px solid #35516a;
+  color: #dfeefa;
+  gap: 13px;
+}
+.comparison-portraits img {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+}
+.comparison-portraits strong {
+  font-family: DigimonBasic, monospace;
+  font-size: 22px;
+  font-weight: 400;
+  overflow-wrap: anywhere;
+  max-width: 100%;
+}
+.comparison-portraits span {
+  font-size: 10px;
+  color: #91b5cf;
+}
+.comparison-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 12px;
+}
+.comparison-table th,
+.comparison-table td {
+  padding: 17px;
+  border-bottom: 1px solid #2d4b64;
+  text-align: left;
+  vertical-align: top;
+  overflow-wrap: anywhere;
+  line-height: 1.8;
+}
+.comparison-table th {
+  color: #a1bdd1;
+  font-weight: 500;
+}
+.comparison-table thead th {
+  color: #f6bb7f;
+}
+.comparison-table th:first-child {
+  width: 19%;
+}
+.profile-context {
+  border-left: 2px solid #466c86;
+  padding-left: 14px;
+  margin: 20px 0;
+}
+.profile-context h3 {
+  font-size: 12px;
+  margin: 0 0 10px;
+}
+.profile-context p {
+  font-size: 11px;
+  line-height: 1.8;
+  color: #9db6cd;
+}
+.offline-box {
+  border-top: 1px solid #35516a;
+  padding-block: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+}
+.offline-box h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.offline-box p {
+  font-size: 12px;
+  line-height: 1.8;
+  color: #95b1c9;
+  max-width: 680px;
+}
+.offline-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-shrink: 0;
+}
+.offline-actions button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+.filters {
+  flex-wrap: wrap;
+}
+.filters .search-field {
+  min-width: 230px;
+}
+.site-header nav {
+  gap: 22px;
+}
+.card-title {
+  font-size: 15px;
+}
+@media (max-width: 760px) {
+  .exploration {
+    padding-top: 25px;
+  }
+  .comparison-portraits img {
+    height: 150px;
+  }
+  .comparison-portraits strong {
+    font-size: 16px;
+  }
+  .comparison-table th,
+  .comparison-table td {
+    padding: 10px 7px;
+    font-size: 11px;
+  }
+  .comparison-table th:first-child {
+    width: 24%;
+  }
+  .offline-box {
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+  .offline-actions {
+    width: 100%;
+  }
+  .offline-actions .button {
+    justify-content: center;
+  }
+  .map-toolbar {
+    gap: 12px;
+  }
+  .map-canvas {
+    padding: 20px 15px;
+  }
+  .map-nodes {
+    gap: 10px;
+    justify-content: start;
+  }
+  .site-header nav {
+    gap: 15px;
+  }
+  .site-header .terminal-link {
+    display: none;
+  }
+  .comparison-portraits {
+    gap: 10px;
+  }
+  .compare-selectors {
+    gap: 10px;
+  }
+  .compare-selectors label {
+    min-width: 110px;
+  }
+  .compare-selectors .icon-button {
+    min-width: 30px;
+  }
+  .mode-tabs button {
+    font-size: 12px;
+    padding: 13px;
+  }
+  .exploration-link {
+    font-size: 11px;
+  }
+}
+@media (max-width: 390px) {
+  .site-header {
+    flex-wrap: wrap;
+    height: auto;
+    padding-block: 12px;
+    gap: 10px;
+  }
+  .site-header nav {
+    height: 40px;
+    flex: 1;
+    justify-content: end;
+    gap: 11px;
+  }
+  .franchise-brand {
+    width: 100px;
+  }
+  .franchise-brand img {
+    width: 100px;
+  }
+  .nav-link {
+    font-size: 11px;
+  }
+  .nav-link.active:after {
+    bottom: 0;
+  }
+  .comparison-portraits img {
+    height: 120px;
+  }
+  .comparison-portraits button {
+    padding: 15px 8px;
+  }
+  .compare-selectors {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+  }
+  .compare-selectors label {
+    min-width: 0;
+  }
+  .compare-selectors select {
+    font-size: 10px;
+  }
+  .comparison-table th,
+  .comparison-table td {
+    font-size: 10px;
+    padding: 10px 5px;
+  }
+}

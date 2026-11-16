@@ -1,0 +1,602 @@
+[
+  {
+    "id": "agumon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.941,
+    "bytes": 993177,
+    "status": "ready"
+  },
+  {
+    "id": "gabumon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.981,
+    "bytes": 1307869,
+    "status": "ready"
+  },
+  {
+    "id": "wargreymon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.981,
+    "bytes": 1323551,
+    "status": "ready"
+  },
+  {
+    "id": "metalgarurumon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.911,
+    "bytes": 1066524,
+    "status": "ready"
+  },
+  {
+    "id": "omegamon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.92,
+    "bytes": 1246604,
+    "status": "ready"
+  },
+  {
+    "id": "greymon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.951,
+    "bytes": 1213396,
+    "status": "ready"
+  },
+  {
+    "id": "metalgreymon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.976,
+    "bytes": 1324603,
+    "status": "ready"
+  },
+  {
+    "id": "garurumon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.931,
+    "bytes": 1240186,
+    "status": "ready"
+  },
+  {
+    "id": "weregarurumon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.993,
+    "bytes": 1426131,
+    "status": "ready"
+  },
+  {
+    "id": "biyomon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.97,
+    "bytes": 922112,
+    "status": "ready"
+  },
+  {
+    "id": "birdramon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.97,
+    "bytes": 1032848,
+    "status": "ready"
+  },
+  {
+    "id": "garudamon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.97,
+    "bytes": 1350861,
+    "status": "ready"
+  },
+  {
+    "id": "phoenixmon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.963,
+    "bytes": 1578840,
+    "status": "ready"
+  },
+  {
+    "id": "tentomon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.965,
+    "bytes": 1065165,
+    "status": "ready"
+  },
+  {
+    "id": "kabuterimon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.967,
+    "bytes": 1477736,
+    "status": "ready"
+  },
+  {
+    "id": "megakabuterimon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.965,
+    "bytes": 1481938,
+    "status": "ready"
+  },
+  {
+    "id": "herculeskabuterimon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.931,
+    "bytes": 1438097,
+    "status": "ready"
+  },
+  {
+    "id": "palmon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.982,
+    "bytes": 1190338,
+    "status": "ready"
+  },
+  {
+    "id": "togemon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.959,
+    "bytes": 1144397,
+    "status": "ready"
+  },
+  {
+    "id": "lillymon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.964,
+    "bytes": 943010,
+    "status": "ready"
+  },
+  {
+    "id": "rosemon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.968,
+    "bytes": 1066613,
+    "status": "ready"
+  },
+  {
+    "id": "gomamon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.963,
+    "bytes": 1083909,
+    "status": "ready"
+  },
+  {
+    "id": "ikkakumon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.947,
+    "bytes": 1372557,
+    "status": "ready"
+  },
+  {
+    "id": "zudomon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.981,
+    "bytes": 1267314,
+    "status": "ready"
+  },
+  {
+    "id": "vikemon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.959,
+    "bytes": 1756013,
+    "status": "ready"
+  },
+  {
+    "id": "patamon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.958,
+    "bytes": 880463,
+    "status": "ready"
+  },
+  {
+    "id": "angemon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.982,
+    "bytes": 1196301,
+    "status": "ready"
+  },
+  {
+    "id": "magnaangemon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.953,
+    "bytes": 1785730,
+    "status": "ready"
+  },
+  {
+    "id": "seraphimon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.993,
+    "bytes": 1343050,
+    "status": "ready"
+  },
+  {
+    "id": "gatomon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.936,
+    "bytes": 1086731,
+    "status": "ready"
+  },
+  {
+    "id": "angewomon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.972,
+    "bytes": 1533155,
+    "status": "ready"
+  },
+  {
+    "id": "magnadramon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.97,
+    "bytes": 1161537,
+    "status": "ready"
+  },
+  {
+    "id": "guilmon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.972,
+    "bytes": 926060,
+    "status": "ready"
+  },
+  {
+    "id": "growlmon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.96,
+    "bytes": 1317068,
+    "status": "ready"
+  },
+  {
+    "id": "wargrowlmon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.959,
+    "bytes": 1406903,
+    "status": "ready"
+  },
+  {
+    "id": "gallantmon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.97,
+    "bytes": 1322094,
+    "status": "ready"
+  },
+  {
+    "id": "renamon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.965,
+    "bytes": 996751,
+    "status": "ready"
+  },
+  {
+    "id": "kyubimon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.913,
+    "bytes": 1387059,
+    "status": "ready"
+  },
+  {
+    "id": "taomon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.975,
+    "bytes": 1276223,
+    "status": "ready"
+  },
+  {
+    "id": "sakuyamon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.967,
+    "bytes": 1357454,
+    "status": "ready"
+  },
+  {
+    "id": "terriermon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.963,
+    "bytes": 621202,
+    "status": "ready"
+  },
+  {
+    "id": "gargomon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.929,
+    "bytes": 1124488,
+    "status": "ready"
+  },
+  {
+    "id": "rapidmon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.927,
+    "bytes": 1131180,
+    "status": "ready"
+  },
+  {
+    "id": "megagargomon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.969,
+    "bytes": 1320748,
+    "status": "ready"
+  },
+  {
+    "id": "veemon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.913,
+    "bytes": 856484,
+    "status": "ready"
+  },
+  {
+    "id": "wormmon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.971,
+    "bytes": 748151,
+    "status": "ready"
+  },
+  {
+    "id": "hawkmon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.931,
+    "bytes": 1155946,
+    "status": "ready"
+  },
+  {
+    "id": "armadillomon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.942,
+    "bytes": 959371,
+    "status": "ready"
+  },
+  {
+    "id": "aquilamon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.977,
+    "bytes": 1000301,
+    "status": "ready"
+  },
+  {
+    "id": "submarimon",
+    "width": 1254,
+    "height": 1254,
+    "alpha": [
+      0,
+      255
+    ],
+    "occupancy": 0.919,
+    "bytes": 815855,
+    "status": "ready"
+  }
+]

@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+<meta name="application-name" content="DigiDex">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="apple-touch-icon" href="./assets/app-icon-192.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#071526" />
+    <meta
+      name="description"
+      content="Conecte-se ao Mundo Digital. Um terminal Digivice para conhecer seus parceiros, explorar técnicas e guardar seus Digimon favoritos."
+    />
+    <title>DigiDex — Terminal do Mundo Digital</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link
+      rel="preload"
+      href="./assets/digimon-basic.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./exploration.css" />
+    <link rel="stylesheet" href="./experience.css" />
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#catalogo">Ir para o arquivo</a>
+    <header class="site-header">
+      <a class="franchise-brand" href="./" aria-label="DigiDex, início"
+        ><img
+          src="./assets/digimon-logo.png"
+          alt="Digital Monster"
+          width="445"
+          height="130"
+        /><span class="fan-label">Arquivo de fã</span></a
+      >
+      <nav aria-label="Navegação principal">
+        <a class="terminal-link" href="#terminal">Terminal</a><a class="exploration-link" href="#exploration">Explorar</a><a class="experience-link" href="#personal">Coleção</a><a class="experience-link" href="#discovery">Descobrir</a>
+        <button class="nav-link active" id="explore-nav" aria-pressed="true">
+          Arquivo
+        </button>
+        <button class="nav-link" id="favorites-nav" aria-pressed="false">
+          Favoritos <span id="favorite-count" class="count">0</span>
+        </button>
+      </nav>
+      <a class="wordmark" href="./">DigiDex<span>Digital archive</span></a>
+    </header>
+
+    <main>
+      <section
+        class="terminal-section page-width"
+        id="terminal"
+        aria-labelledby="terminal-heading"
+      >
+        <div class="terminal-heading">
+          <div>
+            <span class="connection-light" aria-hidden="true"></span>
+            <h1 id="terminal-heading">Conexão com o Mundo Digital</h1>
+          </div>
+          <span class="terminal-edition"
+            >Coleção original <span>/</span> 2023 — 2026</span
+          >
+        </div>
+        <div class="terminal-shell">
+          <div class="terminal-top">
+            <span>DigiDex <b>/</b> Estação de análise</span
+            ><span class="terminal-top-right"
+              >66 registros disponíveis <i aria-hidden="true"></i
+            ></span>
+          </div>
+          <div class="terminal-layout">
+            <aside class="partner-rail" aria-label="Selecionar parceiro">
+              <span class="rail-title">Parceiros</span>
+              <div id="partner-selector" class="partner-selector"></div>
+              <span class="rail-end" aria-hidden="true">＋</span>
+            </aside>
+            <div class="partner-stage" id="partner-stage">
+              <div class="stage-grid" aria-hidden="true"></div>
+              <div class="stage-heading">
+                <span class="record-label"
+                  >Registro <b id="partner-number">001</b></span
+                >
+                <h2 id="partner-name">Agumon</h2>
+                <p id="partner-japanese" lang="ja">アグモン</p>
+              </div>
+              <div class="scan-ring ring-outer" aria-hidden="true"></div>
+              <div class="scan-ring ring-inner" aria-hidden="true"></div>
+              <span class="stage-cross cross-left" aria-hidden="true">＋</span
+              ><span class="stage-cross cross-right" aria-hidden="true"
+                >＋</span
+              >
+              <img
+                id="partner-image"
+                class="partner-image"
+                src="./assets/digimon/standard/agumon.png"
+                alt="Agumon"
+                width="480"
+                height="480"
+                fetchpriority="high"
+              />
+              <div class="stage-caption">
+                <span id="partner-stage-level">Rookie</span
+                ><span>Digital Monster</span>
+              </div>
+              <div class="stage-controls">
+                <button
+                  id="previous-partner"
+                  class="icon-button"
+                  aria-label="Parceiro anterior"
+                >
+                  ←
+                </button>
+                <p><span id="partner-position">01</span> / <span id="partner-total">32</span></p>
+                <button
+                  id="next-partner"
+                  class="icon-button"
+                  aria-label="Próximo parceiro"
+                >
+                  →
+                </button>
+              </div>
+            </div>
+            <section
+              class="partner-info"
+              aria-label="Dados do parceiro selecionado"
+            >
+              <div class="info-heading">
+                <span class="section-kicker">Leitura do parceiro</span
+                ><button
+                  id="partner-favorite"
+                  class="icon-button"
+                  aria-label="Salvar parceiro nos favoritos"
+                  aria-pressed="false"
+                >
+                  ☆
+                </button>
+              </div>
+              <dl class="partner-stats">
+                <div>
+                  <dt>Estágio</dt>
+                  <dd id="partner-level">Rookie</dd>
+                </div>
+                <div>
+                  <dt>Atributo</dt>
+                  <dd id="partner-attribute">Vacina</dd>
+                </div>
+                <div>
+                  <dt>Tipo</dt>
+                  <dd id="partner-element">Fogo</dd>
+                </div>
+              </dl>
+              <div class="family-block">
+                <span class="section-kicker">Famílias</span>
+                <p id="partner-families">Virus Busters / Dragons Roar</p>
+              </div>
+              <div class="technique-heading">
+                <h3>Técnicas registradas</h3>
+                <span id="attack-count">04</span>
+              </div>
+              <ol id="partner-attacks" class="terminal-attacks"></ol>
+              <button
+                id="hero-detail"
+                class="button primary"
+                aria-label="Abrir ficha de Agumon"
+              >
+                Abrir ficha completa <span aria-hidden="true">↗</span>
+              </button>
+              <button id="random-button" class="button quiet">
+                Surpreenda-me <span aria-hidden="true">⤨</span>
+              </button>
+            </section>
+          </div>
+          <div class="terminal-bottom">
+            <span><i aria-hidden="true"></i> Dados locais carregados</span
+            ><span>Escolha um parceiro para iniciar a leitura</span
+            ><span class="bottom-mark" aria-hidden="true">▰ ▰ ▰ ▱ ▱</span>
+          </div>
+        </div>
+        <p class="terminal-hint">
+          <span aria-hidden="true">⌨</span> Use <kbd>Tab</kbd> para navegar e
+          <kbd>/</kbd> para buscar.
+          <span>Seu próximo parceiro está no arquivo.</span>
+        </p>
+        <p
+          id="partner-announcement"
+          class="sr-only"
+          role="status"
+          aria-live="polite"
+        ></p>
+      </section>
+
+      <section
+        class="catalog-section page-width"
+        id="catalogo"
+        aria-labelledby="catalog-title"
+      >
+        <div class="section-heading">
+          <div>
+            <span class="section-kicker">Arquivo de parceiros</span>
+            <h2 id="catalog-title">Explore os registros.</h2>
+          </div>
+          <span class="archive-symbol" aria-hidden="true">デジモン</span>
+        </div>
+        <form
+          id="filters"
+          class="filters"
+          role="search"
+          aria-label="Buscar e filtrar Digimon"
+        >
+          <div class="search-field">
+            <span aria-hidden="true">⌕</span
+            ><label class="sr-only" for="search">Buscar Digimon</label
+            ><input
+              id="search"
+              name="search"
+              type="search"
+              placeholder="Nome ou nome japonês…"
+              autocomplete="off"
+            /><kbd aria-hidden="true">/</kbd>
+          </div>
+          <div class="select-field"><label for="collection">Coleção</label><select id="collection"><option value="">Todas</option><option value="adventure">Adventure</option><option value="02">Adventure 02</option><option value="tamers">Tamers</option></select></div><div class="select-field">
+            <label for="level">Estágio</label
+            ><select id="level">
+              <option value="">Todos</option>
+              <option value="Rookie">Rookie</option>
+              <option value="Mega">Mega</option>
+            </select>
+          </div>
+          <div class="select-field">
+            <label for="attribute">Atributo</label
+            ><select id="attribute">
+              <option value="">Todos</option>
+              <option value="Vaccine">Vacina</option>
+              <option value="Data">Dados</option>
+            </select>
+          </div>
+          <button
+            class="reset-button"
+            type="reset"
+            aria-label="Limpar busca e filtros"
+            title="Limpar busca e filtros"
+          >
+            ↺
+          </button>
+        </form>
+        <div class="results-bar">
+          <p id="result-count" role="status" aria-live="polite"></p>
+          <div>
+            <label for="sort">Ordenar por</label
+            ><select id="sort">
+              <option value="number">Número do registro</option>
+              <option value="name">Nome: A–Z</option>
+            </select>
+          </div>
+        </div>
+        <div class="archive-columns" aria-hidden="true">
+          <span>Registro / parceiro</span><span>Estágio</span
+          ><span>Atributo</span><span>Tipo</span><span>Ações</span>
+        </div>
+        <div class="catalog-grid" id="catalog-grid"></div>
+        <div class="empty-state" id="empty-state" hidden>
+          <span aria-hidden="true">⌕</span>
+          <h3 id="empty-title">Nenhum parceiro por aqui.</h3>
+          <p id="empty-description">
+            Tente outro nome ou remova alguns filtros.
+          </p>
+          <button class="button primary" id="empty-reset">
+            Limpar filtros
+          </button>
+        </div>
+        <noscript
+          ><p class="notice">
+            Ative o JavaScript para usar o terminal. Os dados também estão
+            disponíveis no
+            <a href="https://github.com/IsaacRedel/DigiDex"
+              >repositório do projeto</a
+            >.
+          </p></noscript
+        >
+      </section>
+    </main>
+    <footer class="site-footer page-width">
+      <div>
+        <a class="wordmark" href="./">DigiDex</a>
+        <p>Uma conexão com a sua primeira aventura.</p>
+      </div>
+      <p class="credits">
+        Projeto de fã, sem afiliação oficial.<br />Digimon e seus personagens
+        pertencem aos respectivos titulares.
+      </p>
+      <div class="footer-links">
+        <a href="./assets/credits.html">Créditos dos assets ↗</a
+        ><a
+          href="https://github.com/IsaacRedel/DigiDex"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Código do projeto ↗</a
+        >
+      </div>
+    </footer>
+    <dialog id="detail-dialog" aria-labelledby="detail-name">
+      <button
+        class="dialog-close icon-button"
+        id="close-dialog"
+        aria-label="Fechar ficha"
+      >
+        ×
+      </button>
+      <div id="detail-content"></div>
+    </dialog>
+    <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+  </body>
+</html>

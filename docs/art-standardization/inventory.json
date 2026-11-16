@@ -1,0 +1,702 @@
+[
+  {
+    "id": "agumon",
+    "name": "Agumon",
+    "number": "001",
+    "before": {
+      "width": 200,
+      "height": 283,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/agumon-transparent.png",
+    "reference": "docs/art-standardization/agumon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/agumon.jpg",
+    "output": "assets/digimon/standard/agumon.png"
+  },
+  {
+    "id": "gabumon",
+    "name": "Gabumon",
+    "number": "002",
+    "before": {
+      "width": 303,
+      "height": 310,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/gabumon-transparent.png",
+    "reference": "docs/art-standardization/gabumon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/gabumon.jpg",
+    "output": "assets/digimon/standard/gabumon.png"
+  },
+  {
+    "id": "wargreymon",
+    "name": "WarGreymon",
+    "number": "003",
+    "before": {
+      "width": 292,
+      "height": 436,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/wargreymon-transparent.png",
+    "reference": "docs/art-standardization/wargreymon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/wargreymon.jpg",
+    "output": "assets/digimon/standard/wargreymon.png"
+  },
+  {
+    "id": "metalgarurumon",
+    "name": "MetalGarurumon",
+    "number": "004",
+    "before": {
+      "width": 524,
+      "height": 350,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/metalgarurumon-transparent.png",
+    "reference": "docs/art-standardization/metalgarurumon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/metalgarurumon.jpg",
+    "output": "assets/digimon/standard/metalgarurumon.png"
+  },
+  {
+    "id": "omegamon",
+    "name": "Omegamon",
+    "number": "005",
+    "before": {
+      "width": 900,
+      "height": 800,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/omegamon-transparent.png",
+    "reference": "docs/art-standardization/omegamon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/omegamon.jpg",
+    "output": "assets/digimon/standard/omegamon.png"
+  },
+  {
+    "id": "greymon",
+    "name": "Greymon",
+    "number": "006",
+    "before": {
+      "width": 218,
+      "height": 226,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/greymon-transparent.png",
+    "reference": "docs/art-standardization/greymon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/greymon-first.jpg",
+    "output": "assets/digimon/standard/greymon.png"
+  },
+  {
+    "id": "metalgreymon",
+    "name": "MetalGreymon",
+    "number": "007",
+    "before": {
+      "width": 380,
+      "height": 238,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/metalgreymon-transparent.png",
+    "reference": "docs/art-standardization/metalgreymon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/metalgreymon-v.jpg",
+    "output": "assets/digimon/standard/metalgreymon.png"
+  },
+  {
+    "id": "garurumon",
+    "name": "Garurumon",
+    "number": "008",
+    "before": {
+      "width": 203,
+      "height": 226,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/garurumon-transparent.png",
+    "reference": "docs/art-standardization/garurumon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/garurumon.jpg",
+    "output": "assets/digimon/standard/garurumon.png"
+  },
+  {
+    "id": "weregarurumon",
+    "name": "WereGarurumon",
+    "number": "009",
+    "before": {
+      "width": 220,
+      "height": 349,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/weregarurumon-transparent.png",
+    "reference": "docs/art-standardization/weregarurumon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/weregarrumon.jpg",
+    "output": "assets/digimon/standard/weregarurumon.png"
+  },
+  {
+    "id": "biyomon",
+    "name": "Biyomon",
+    "number": "010",
+    "before": {
+      "width": 332,
+      "height": 323,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/biyomon-transparent.png",
+    "reference": "docs/art-standardization/biyomon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/piyomon.jpg",
+    "output": "assets/digimon/standard/biyomon.png"
+  },
+  {
+    "id": "birdramon",
+    "name": "Birdramon",
+    "number": "011",
+    "before": {
+      "width": 367,
+      "height": 207,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/birdramon-transparent.png",
+    "reference": "docs/art-standardization/birdramon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/birdramon.jpg",
+    "output": "assets/digimon/standard/birdramon.png"
+  },
+  {
+    "id": "garudamon",
+    "name": "Garudamon",
+    "number": "012",
+    "before": {
+      "width": 264,
+      "height": 314,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/garudamon-transparent.png",
+    "reference": "docs/art-standardization/garudamon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/garudamon.jpg",
+    "output": "assets/digimon/standard/garudamon.png"
+  },
+  {
+    "id": "phoenixmon",
+    "name": "Phoenixmon",
+    "number": "013",
+    "before": {
+      "width": 458,
+      "height": 364,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/phoenixmon-transparent.png",
+    "reference": "docs/art-standardization/phoenixmon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/hououmon.jpg",
+    "output": "assets/digimon/standard/phoenixmon.png"
+  },
+  {
+    "id": "tentomon",
+    "name": "Tentomon",
+    "number": "014",
+    "before": {
+      "width": 263,
+      "height": 234,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/tentomon-transparent.png",
+    "reference": "docs/art-standardization/tentomon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/tentomon.jpg",
+    "output": "assets/digimon/standard/tentomon.png"
+  },
+  {
+    "id": "kabuterimon",
+    "name": "Kabuterimon",
+    "number": "015",
+    "before": {
+      "width": 267,
+      "height": 240,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/kabuterimon-transparent.png",
+    "reference": "docs/art-standardization/kabuterimon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/kabuterimon.jpg",
+    "output": "assets/digimon/standard/kabuterimon.png"
+  },
+  {
+    "id": "megakabuterimon",
+    "name": "MegaKabuterimon",
+    "number": "016",
+    "before": {
+      "width": 214,
+      "height": 257,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/megakabuterimon-transparent.png",
+    "reference": "docs/art-standardization/megakabuterimon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/atlurkabuterimon.jpg",
+    "output": "assets/digimon/standard/megakabuterimon.png"
+  },
+  {
+    "id": "herculeskabuterimon",
+    "name": "HerculesKabuterimon",
+    "number": "017",
+    "before": {
+      "width": 443,
+      "height": 274,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/herculeskabuterimon-transparent.png",
+    "reference": "docs/art-standardization/herculeskabuterimon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/heraklekabuterimon.jpg",
+    "output": "assets/digimon/standard/herculeskabuterimon.png"
+  },
+  {
+    "id": "palmon",
+    "name": "Palmon",
+    "number": "018",
+    "before": {
+      "width": 114,
+      "height": 154,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/palmon-transparent.png",
+    "reference": "docs/art-standardization/palmon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/palmon.jpg",
+    "output": "assets/digimon/standard/palmon.png"
+  },
+  {
+    "id": "togemon",
+    "name": "Togemon",
+    "number": "019",
+    "before": {
+      "width": 161,
+      "height": 184,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/togemon-transparent.png",
+    "reference": "docs/art-standardization/togemon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/togemon.jpg",
+    "output": "assets/digimon/standard/togemon.png"
+  },
+  {
+    "id": "lillymon",
+    "name": "Lillymon",
+    "number": "020",
+    "before": {
+      "width": 235,
+      "height": 344,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/lillymon-transparent.png",
+    "reference": "docs/art-standardization/lillymon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/lilimon.jpg",
+    "output": "assets/digimon/standard/lillymon.png"
+  },
+  {
+    "id": "rosemon",
+    "name": "Rosemon",
+    "number": "021",
+    "before": {
+      "width": 307,
+      "height": 430,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/rosemon-transparent.png",
+    "reference": "docs/art-standardization/rosemon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/rosemon.jpg",
+    "output": "assets/digimon/standard/rosemon.png"
+  },
+  {
+    "id": "gomamon",
+    "name": "Gomamon",
+    "number": "022",
+    "before": {
+      "width": 267,
+      "height": 199,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/gomamon-transparent.png",
+    "reference": "docs/art-standardization/gomamon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/gomamon.jpg",
+    "output": "assets/digimon/standard/gomamon.png"
+  },
+  {
+    "id": "ikkakumon",
+    "name": "Ikkakumon",
+    "number": "023",
+    "before": {
+      "width": 180,
+      "height": 205,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/ikkakumon-transparent.png",
+    "reference": "docs/art-standardization/ikkakumon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/ikkakumon.jpg",
+    "output": "assets/digimon/standard/ikkakumon.png"
+  },
+  {
+    "id": "zudomon",
+    "name": "Zudomon",
+    "number": "024",
+    "before": {
+      "width": 300,
+      "height": 287,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/zudomon-transparent.png",
+    "reference": "docs/art-standardization/zudomon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/zudomon.jpg",
+    "output": "assets/digimon/standard/zudomon.png"
+  },
+  {
+    "id": "vikemon",
+    "name": "Vikemon",
+    "number": "025",
+    "before": {
+      "width": 362,
+      "height": 415,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/vikemon-transparent.png",
+    "reference": "docs/art-standardization/vikemon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/vikemon.jpg",
+    "output": "assets/digimon/standard/vikemon.png"
+  },
+  {
+    "id": "patamon",
+    "name": "Patamon",
+    "number": "026",
+    "before": {
+      "width": 220,
+      "height": 185,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/patamon-transparent.png",
+    "reference": "docs/art-standardization/patamon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/patamon.jpg",
+    "output": "assets/digimon/standard/patamon.png"
+  },
+  {
+    "id": "angemon",
+    "name": "Angemon",
+    "number": "027",
+    "before": {
+      "width": 233,
+      "height": 348,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/angemon-transparent.png",
+    "reference": "docs/art-standardization/angemon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/angemon.jpg",
+    "output": "assets/digimon/standard/angemon.png"
+  },
+  {
+    "id": "magnaangemon",
+    "name": "MagnaAngemon",
+    "number": "028",
+    "before": {
+      "width": 333,
+      "height": 359,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/magnaangemon-transparent.png",
+    "reference": "docs/art-standardization/magnaangemon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/holyangemon.jpg",
+    "output": "assets/digimon/standard/magnaangemon.png"
+  },
+  {
+    "id": "seraphimon",
+    "name": "Seraphimon",
+    "number": "029",
+    "before": {
+      "width": 325,
+      "height": 507,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/seraphimon-transparent.png",
+    "reference": "docs/art-standardization/seraphimon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/seraphimon.jpg",
+    "output": "assets/digimon/standard/seraphimon.png"
+  },
+  {
+    "id": "gatomon",
+    "name": "Gatomon",
+    "number": "030",
+    "before": {
+      "width": 287,
+      "height": 287,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/gatomon-transparent.png",
+    "reference": "docs/art-standardization/gatomon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/tailmon.jpg",
+    "output": "assets/digimon/standard/gatomon.png"
+  },
+  {
+    "id": "angewomon",
+    "name": "Angewomon",
+    "number": "031",
+    "before": {
+      "width": 391,
+      "height": 430,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/angewomon-transparent.png",
+    "reference": "docs/art-standardization/angewomon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/angewomon.jpg",
+    "output": "assets/digimon/standard/angewomon.png"
+  },
+  {
+    "id": "magnadramon",
+    "name": "Magnadramon",
+    "number": "032",
+    "before": {
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/magnadramon-transparent.png",
+    "reference": "docs/art-standardization/magnadramon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/holydramon.jpg",
+    "output": "assets/digimon/standard/magnadramon.png"
+  },
+  {
+    "id": "guilmon",
+    "name": "Guilmon",
+    "number": "033",
+    "before": {
+      "width": 197,
+      "height": 300,
+      "mode": "P"
+    },
+    "originalImage": "assets/digimon/guilmon-transparent.gif",
+    "reference": "docs/art-standardization/guilmon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/guilmon.jpg",
+    "output": "assets/digimon/standard/guilmon.png"
+  },
+  {
+    "id": "growlmon",
+    "name": "Growlmon",
+    "number": "034",
+    "before": {
+      "width": 300,
+      "height": 300,
+      "mode": "P"
+    },
+    "originalImage": "assets/digimon/growlmon-transparent.gif",
+    "reference": "docs/art-standardization/growlmon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/growmon.jpg",
+    "output": "assets/digimon/standard/growlmon.png"
+  },
+  {
+    "id": "wargrowlmon",
+    "name": "WarGrowlmon",
+    "number": "035",
+    "before": {
+      "width": 248,
+      "height": 300,
+      "mode": "P"
+    },
+    "originalImage": "assets/digimon/wargrowlmon-transparent.gif",
+    "reference": "docs/art-standardization/wargrowlmon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/megalogrowmon.jpg",
+    "output": "assets/digimon/standard/wargrowlmon.png"
+  },
+  {
+    "id": "gallantmon",
+    "name": "Gallantmon",
+    "number": "036",
+    "before": {
+      "width": 197,
+      "height": 300,
+      "mode": "P"
+    },
+    "originalImage": "assets/digimon/gallantmon-transparent.gif",
+    "reference": "docs/art-standardization/gallantmon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/dukemon.jpg",
+    "output": "assets/digimon/standard/gallantmon.png"
+  },
+  {
+    "id": "renamon",
+    "name": "Renamon",
+    "number": "037",
+    "before": {
+      "width": 218,
+      "height": 300,
+      "mode": "P"
+    },
+    "originalImage": "assets/digimon/renamon-transparent.gif",
+    "reference": "docs/art-standardization/renamon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/renamon.jpg",
+    "output": "assets/digimon/standard/renamon.png"
+  },
+  {
+    "id": "kyubimon",
+    "name": "Kyubimon",
+    "number": "038",
+    "before": {
+      "width": 338,
+      "height": 300,
+      "mode": "P"
+    },
+    "originalImage": "assets/digimon/kyubimon-transparent.gif",
+    "reference": "docs/art-standardization/kyubimon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/kyubimon.jpg",
+    "output": "assets/digimon/standard/kyubimon.png"
+  },
+  {
+    "id": "taomon",
+    "name": "Taomon",
+    "number": "039",
+    "before": {
+      "width": 196,
+      "height": 300,
+      "mode": "P"
+    },
+    "originalImage": "assets/digimon/taomon-transparent.gif",
+    "reference": "docs/art-standardization/taomon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/taomon.jpg",
+    "output": "assets/digimon/standard/taomon.png"
+  },
+  {
+    "id": "sakuyamon",
+    "name": "Sakuyamon",
+    "number": "040",
+    "before": {
+      "width": 119,
+      "height": 300,
+      "mode": "P"
+    },
+    "originalImage": "assets/digimon/sakuyamon-transparent.gif",
+    "reference": "docs/art-standardization/sakuyamon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/sakuyamon.jpg",
+    "output": "assets/digimon/standard/sakuyamon.png"
+  },
+  {
+    "id": "terriermon",
+    "name": "Terriermon",
+    "number": "041",
+    "before": {
+      "width": 277,
+      "height": 176,
+      "mode": "P"
+    },
+    "originalImage": "assets/digimon/terriermon-transparent.gif",
+    "reference": "docs/art-standardization/terriermon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/terriermon.jpg",
+    "output": "assets/digimon/standard/terriermon.png"
+  },
+  {
+    "id": "gargomon",
+    "name": "Gargomon",
+    "number": "042",
+    "before": {
+      "width": 319,
+      "height": 250,
+      "mode": "P"
+    },
+    "originalImage": "assets/digimon/gargomon-transparent.gif",
+    "reference": "docs/art-standardization/gargomon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/galgomon.jpg",
+    "output": "assets/digimon/standard/gargomon.png"
+  },
+  {
+    "id": "rapidmon",
+    "name": "Rapidmon",
+    "number": "043",
+    "before": {
+      "width": 250,
+      "height": 300,
+      "mode": "P"
+    },
+    "originalImage": "assets/digimon/rapidmon-transparent.gif",
+    "reference": "docs/art-standardization/rapidmon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/rapidmon.jpg",
+    "output": "assets/digimon/standard/rapidmon.png"
+  },
+  {
+    "id": "megagargomon",
+    "name": "MegaGargomon",
+    "number": "044",
+    "before": {
+      "width": 179,
+      "height": 300,
+      "mode": "P"
+    },
+    "originalImage": "assets/digimon/megagargomon-transparent.gif",
+    "reference": "docs/art-standardization/megagargomon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/saintgalgomon.jpg",
+    "output": "assets/digimon/standard/megagargomon.png"
+  },
+  {
+    "id": "veemon",
+    "name": "Veemon",
+    "number": "045",
+    "before": {
+      "width": 570,
+      "height": 570,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/veemon-transparent.png",
+    "reference": "docs/art-standardization/veemon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/v-mon.jpg",
+    "output": "assets/digimon/standard/veemon.png"
+  },
+  {
+    "id": "wormmon",
+    "name": "Wormmon",
+    "number": "046",
+    "before": {
+      "width": 570,
+      "height": 570,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/wormmon-transparent.png",
+    "reference": "docs/art-standardization/wormmon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/wormmon.jpg",
+    "output": "assets/digimon/standard/wormmon.png"
+  },
+  {
+    "id": "hawkmon",
+    "name": "Hawkmon",
+    "number": "047",
+    "before": {
+      "width": 570,
+      "height": 570,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/hawkmon-transparent.png",
+    "reference": "docs/art-standardization/hawkmon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/hawkmon.jpg",
+    "output": "assets/digimon/standard/hawkmon.png"
+  },
+  {
+    "id": "armadillomon",
+    "name": "Armadillomon",
+    "number": "048",
+    "before": {
+      "width": 570,
+      "height": 570,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/armadillomon-transparent.png",
+    "reference": "docs/art-standardization/armadillomon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/armadimon.jpg",
+    "output": "assets/digimon/standard/armadillomon.png"
+  },
+  {
+    "id": "aquilamon",
+    "name": "Aquilamon",
+    "number": "051",
+    "before": {
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/aquilamon-transparent.png",
+    "reference": "docs/art-standardization/aquilamon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/aquilamon.jpg",
+    "output": "assets/digimon/standard/aquilamon.png"
+  },
+  {
+    "id": "submarimon",
+    "name": "Submarimon",
+    "number": "059",
+    "before": {
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA"
+    },
+    "originalImage": "assets/digimon/submarimon-transparent.png",
+    "reference": "docs/art-standardization/submarimon-reference.jpg",
+    "referenceSource": "https://digimon.net/cimages/digimon/sabmarimon.jpg",
+    "output": "assets/digimon/standard/submarimon.png"
+  }
+]
